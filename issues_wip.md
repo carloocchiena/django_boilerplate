@@ -1,2 +1,4 @@
 - create a navbar
 - create a menu
+- add a 404 page
+- add a form
