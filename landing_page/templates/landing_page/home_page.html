@@ -5,13 +5,38 @@
 
     {% block content %}
     <main class="px-3">
-        <h1>Cover your page.</h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        
+        <h1>Our Product</h1>
+        <h1>will be ready soon.</h1>
+        
         <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+            Insert here a clever marketing message to encourage people to leave their mail to stay updated with the
+            go-live of your product.
         </p>
+        
+        <!--
+        <p class="lead">
+            <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+        </p>
+        -->
+
+        <form action="" method="post"> 
+            {% csrf_token %}
+            {% for field in form %}
+                <div class="lead form-group">
+                    {{ field.label }}
+                </div>
+                <br>
+                <div class="form-group mb-2">
+                    {{ field }}
+                    <!--<br><small id="emailHelp" class="form-text text-muted">We hate spam as much as you do.</small>-->
+                    {{ field.errors }}
+                </div>
+            {% endfor %}
+            <br>
+            <button class="btn btn-lg btn-secondary fw-bold border-white bg-white" type="submit">Submit</button> 
+        </form>
+        <br><br>
+
     </main>
     {% endblock %}
-
-
-
