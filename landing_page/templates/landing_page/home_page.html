@@ -29,14 +29,14 @@
                 <br>
                 <div class="form-group mb-2">
                     {{ field }}
-                    <!--<br><small id="emailHelp" class="form-text text-muted">We hate spam as much as you do.</small>-->
-                    {{ field.errors }}
+                    <!--<br><small id="emailHelp" class="form-text text-muted">We hate spam as much as you do.</small>-->          
                 </div>
             {% endfor %}
             <br>
             <button class="btn btn-lg btn-secondary fw-bold border-white bg-white" type="submit">Submit</button> 
         </form>
-        <br><br>
+        <br>
+        {{ warning }}  
 
     </main>
     {% endblock %}
