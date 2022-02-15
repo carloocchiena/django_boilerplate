@@ -60,9 +60,9 @@
             <img class="float-md-start mb-0 my-auto" src='static/landing_page/img/logo.png' alt="company_logo" width="45px" height="45px">
             <h2 class="float-md-start mb-0">Company Name</h2>
             <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="{% url 'one_page:home_page' %}">Home</a>
             <!-- <a class="nav-link" href="#">Features</a> -->
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="{% url 'one_page:about_page' %}">About us</a>
             </nav>
         </div>
     </header>

@@ -6,6 +6,7 @@ from django.shortcuts import render
 from .forms import ContactForm
 from .models import ContactDatabase
 
+# home page
 def home_page(request):
     """Manage how user interact with the form in the landing page.
     """
@@ -24,3 +25,7 @@ def home_page(request):
     else:
         form = ContactForm()
     return render(request, 'landing_page/home_page.html', context={'form':form, 'warning': ''})
+
+# about page
+def about_page(request):
+    return render(request, 'landing_page/about_page.html')

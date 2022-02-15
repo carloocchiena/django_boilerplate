@@ -1,5 +1,6 @@
 - add a 404 page
-- add about page
+- add about page (and render it correctly)
+- fix the about link not updating correctly
 
 
 
