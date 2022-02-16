@@ -1,6 +1,5 @@
-- add a 404 page
-- add about page (and render it correctly)
-- fix the about link not updating correctly
+- add about page
+- add test https://docs.djangoproject.com/en/4.0/topics/testing/overview/ 
 
 
 

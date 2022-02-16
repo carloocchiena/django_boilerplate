@@ -16,8 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-
 urlpatterns = [
     path('', include('one_page.urls'), name='home_page'),
     path('admin/', admin.site.urls),
 ]
+
+# custom error handling
+handler404 = 'one_page.views.custom_page_not_found_view'
+handler500 = 'one_page.views.custom_error_view'
+handler403 = 'one_page.views.custom_permission_denied_view'
+handler400 = 'one_page.views.custom_bad_request_view'

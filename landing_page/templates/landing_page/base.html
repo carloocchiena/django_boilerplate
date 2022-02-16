@@ -1,14 +1,16 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-        
-    {% load static %}
 
     {% block title%}
+    
     <title>Home Page</title>
+    
     {% endblock %}
 
     <!-- FAVICON -->
@@ -60,22 +62,21 @@
             <img class="float-md-start mb-0 my-auto" src="{% static 'landing_page/img/logo.png' %}" alt="company_logo" width="45px" height="45px">
             <h2 class="float-md-start mb-0">Company Name</h2>
             <nav class="nav nav-masthead justify-content-center float-md-end">
-    
-    <!-- 
-        This is needed to display different link highlight 
-        in navbar depending on the page we are 
-    -->
-    
-    <!-- Above the block --> 
-    {% block content %}            
+            
+            {%block navbar %}
+            
             <a class="nav-link active" aria-current="page" href="{% url 'one_page:home_page' %}">Home</a>
             <!-- <a class="nav-link" href="#">Features</a> -->
             <a class="nav-link" href="{% url 'one_page:about_page' %}">About us</a>
+            
+            {% endblock %}
+            
             </nav>
         </div>
     </header>
 
-    
+    <!-- Above the block --> 
+    {% block content %}  
         
 
     {% endblock %}

@@ -1,17 +1,23 @@
 {% extends 'landing_page/base.html' %}
 {% load static %}
 
-{% block title %} <title>Home Page</title> {% endblock %}
+{% block title %} 
+
+<title>Home Page</title> 
+
+{% endblock %}
+
+{%block navbar %}
+
+<a class="nav-link active" aria-current="page" href="{% url 'one_page:home_page' %}">Home</a>
+<!-- <a class="nav-link" href="#">Features</a> -->
+<a class="nav-link" href="{% url 'one_page:about_page' %}">About us</a>
+
+{% endblock %}
+
 
     {% block content %}
-    <a class="nav-link active" aria-current="page" href="{% url 'one_page:home_page' %}">Home</a>
-    <!-- <a class="nav-link" href="#">Features</a> -->
-    <a class="nav-link" href="{% url 'one_page:about_page' %}">About us</a>
-    </nav>
-</div>
-</header>
-
-
+    
     <main class="px-3">
         
         <h1>Our Product</h1>
@@ -41,4 +47,5 @@
         {{ warning }}  
 
     </main>
+    
     {% endblock %}
