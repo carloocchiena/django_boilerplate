@@ -2,6 +2,8 @@
 
 - activate Python Env: `conda activate my_env`
 
+- create custom pylint file: `pylint --generate-rcfile > .pylintrc`
+
 - install Django: `pip install django`
 
 - update requirements.txt: `pip list --format=freeze > requirements.txt`
