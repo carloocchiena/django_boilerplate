@@ -26,3 +26,8 @@ handler404 = 'one_page.views.custom_page_not_found_view'
 handler500 = 'one_page.views.custom_error_view'
 handler403 = 'one_page.views.custom_permission_denied_view'
 handler400 = 'one_page.views.custom_bad_request_view'
+
+# custom admin page
+admin.site.site_header = "My Landing Page Admin"
+admin.site.site_title = "Admin Portal"
+admin.site.index_title = "Welcome to Your Site Admin Portal"

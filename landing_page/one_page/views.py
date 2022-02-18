@@ -20,18 +20,18 @@ class HomePage(TemplateView):
     def post(self, request, *args, **kwargs):
         """Manage form submission
         """
-        form = ContactForm()
-        if request.method == 'POST':
-            if form.is_valid():
-                if ContactDatabase.objects.filter(email=form.cleaned_data['email']).count() < 1:
-                    print(form.cleaned_data)
-                    form.save()
-                    return render(request, self.template_name, context={'form':form, 'warning': 'Thanks for your interest!'})
-                else:
-                    return render(request, self.template_name, context={'form':form, 'warning': 'Warning! Email already exists'})
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            if ContactDatabase.objects.filter(email=form.cleaned_data['email']).count() < 1:
+                print(form.cleaned_data)
+                form.save()
+                message = 'Thanks for your interest!'
             else:
-                return render(request, self.template_name, context={'form':form, 'warning': 'Insert a valid email!'})
-            
+                message = 'Warning! Email already exists'
+        else:
+            message = 'Insert a valid email!'
+        
+        return render(request, self.template_name, {'form': form, 'warning': message})
         
 # this is the function way
 # def home_page(request):
