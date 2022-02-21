@@ -29,3 +29,7 @@
 - example of queries: `MyModel.objects.all()`, `MyModel.objects.filter(name='my_name')`, `MyModel.objects.filter(age__gte=20).all()`, `MyModel.objects.filter(first_name__startswith="c").all()`, `MyModel.objects.filter(first_name__startswith="c").exclude(age__gte=20).all()`, `MyModel.objects.order_by('age').all()`
 
 - create superuser: `python manage.py createsuperuser`
+
+- run tests `python manage.py test --verbosity=2` 
+
+- collect all static files `python manage.py collectstatic`

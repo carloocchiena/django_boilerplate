@@ -18,7 +18,7 @@
 
     {% block content %}
     
-    <main class="px-3">
+    <main class="px-3" >
         
         <h1>Our Product</h1>
         <h1>will be ready soon.</h1>
@@ -28,23 +28,32 @@
             go-live of your product.
         </p>
 
-        <form action="" method="post"> 
-            {% csrf_token %}
-            {% for field in form %}
-                <div class="lead form-group">
-                    {{ field.label }}
+        
+        <form action="" method="post">
+            <div class="form-group"> 
+                {% csrf_token %}
+                {% for field in form %}
+                    <div class="lead form-group">
+                        {{ field.label }}
+                    </div>
+                    <br>
+                    <div class="form-group mb-2">
+                        {{ field }}
+                        <!--<br><small id="emailHelp" class="form-text text-muted">We hate spam as much as you do.</small>-->          
+                    </div>
+                {% endfor %}
+                <div class="row checkbox-row">
+                    <div class="col-xs-2 col-xs-offset-4">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Flag the privacy consent</label>
+                    </div>
                 </div>
                 <br>
-                <div class="form-group mb-2">
-                    {{ field }}
-                    <!--<br><small id="emailHelp" class="form-text text-muted">We hate spam as much as you do.</small>-->          
-                </div>
-            {% endfor %}
-            <br>
-            <button class="btn btn-lg btn-secondary fw-bold border-white bg-white" type="submit">Submit</button> 
+                <button class="btn btn-lg btn-secondary fw-bold border-white bg-white" type="submit">Submit</button>
+            </div> 
         </form>
         <br>
-        {{ warning }}  
+        {{ warning }}
 
     </main>
     
