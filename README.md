@@ -22,5 +22,5 @@ Here's a draft walkthrough of the steps required to modify the django boilerplat
 ### Landing Page
 This is a template for a static landing page teasing a launch of a new product\service\brand.
 To modify the look and feel of the landing page, modify the html in the `templates` folder.
-While to update images, background and logo, just update them in the `static\landing_page\img` folder. There are no issues as soon as you keep the same names. If you'd like to update them, you should also update the templates accordingly, using the static convention (`src="{% static 'landing_page/img/image_name.jpg' %}").
+While to update images, background and logo, just update them in the `static\landing_page\img` folder. There are no issues as soon as you keep the same names. If you'd like to update them, you should also update the templates accordingly, using the static convention (`src="{% static 'landing_page/img/image_name.jpg' %}"`).
 The landing page has an admin section (url_name/admin) where you can check and interact with the saved data. To create a superuser, check the `CLI_commands` file. Currently there's just a superuser called `admin` with the password `admin`.
