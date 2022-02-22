@@ -29,6 +29,7 @@ class ContactDatabaseTest(TestCase):
 # testing the forms.py
 class ContactFormTest(TestCase):
     def test_contact_form_email_label(self):
+        """Test that contact form has correct label"""
         form = ContactForm()
         self.assertTrue(form.fields['email'].label is None or
                         form.fields['email'].label == 'Please insert your email')
