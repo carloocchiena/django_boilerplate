@@ -3,6 +3,7 @@ from django.forms import ModelForm
 from .models import ContactDatabase
 
 class ContactForm(ModelForm):
+    """User can leave a mail to be included in the waiting list"""
     class Meta:
         model = ContactDatabase
         fields = "__all__"
@@ -15,4 +16,4 @@ class ContactForm(ModelForm):
         widgets = {
             'email': forms.TextInput(attrs={'placeholder': 'Email'})
         }
-        
+                
