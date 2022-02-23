@@ -1,11 +1,11 @@
+### Landing Page
+- align about page button to the bottom of the card
+- strengthen the testing in test.py
 
-- align about page button to the bottom (???)
-- add test https://docs.djangoproject.com/en/4.0/topics/testing/overview/ 
+### Social media clone
+https://realpython.com/django-social-network-1/ 
 
-
-
-ref:
-https://www.francescodattolo.it/single-page-application-con-django/
+### Saved ref:
 https://stackoverflow.com/questions/8133505/django-templateview-and-form
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing
 

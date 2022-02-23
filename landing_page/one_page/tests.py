@@ -1,9 +1,8 @@
 from django.test import TestCase
+from django.urls import reverse
 
 from one_page.models import ContactDatabase
 from one_page.forms import ContactForm
-
-
 
 # Create your tests here.
 
@@ -35,4 +34,21 @@ class ContactFormTest(TestCase):
                         form.fields['email'].label == 'Please insert your email')
         
 # testing the views.py
-# see https://stackoverflow.com/questions/53531753/django-testing-in-creating-a-user-with-email-address-which-is-from-session-input
+class ContactViewTest(TestCase):
+    """check the email form with some cases"""
+    
+    valid_data = "test1@test.com"
+    
+    def test_email_form(self):
+        """email is valid"""
+        response = self.client.post(reverse('one_page:home_page'), {'email': self.valid_data})
+        self.assertTrue(response.context['form'].is_valid())
+        
+        response.context['form'].save()
+        self.assertTrue(ContactDatabase.objects.filter(email=self.valid_data).exists())
+
+    def duplicate_email_form(self):
+        """email already exists"""
+        response = self.client.post(reverse('one_page:home_page'), {'email': self.valid_data})
+        self.assertContains(response, "Warning! Email already exists")
+        
