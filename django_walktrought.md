@@ -10,3 +10,5 @@ A basic checklist for getting started with Django:
 6. remove secret key into .env
 7. run migrations
 8. create a superuser
+9. create your first model
+10. make migrations and run migrations

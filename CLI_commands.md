@@ -14,7 +14,7 @@
 
 - start new django app: `python manage.py startapp my_app`
 
-- make the migration: `python manage.py makemigrations my_app`
+- make the migration: `python manage.py makemigrations`
 
 - migrate the main database: `python manage.py migrate`
 

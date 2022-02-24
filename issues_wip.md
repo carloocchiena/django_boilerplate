@@ -5,7 +5,7 @@
 ### Social media clone
 https://realpython.com/django-social-network-1/ 
 
-here: https://realpython.com/django-social-network-1/#:~:text=the%20fields%20displayed%20in%20the%20admin%20section%20of%20Django%E2%80%99s%20built%2Din%20User%20model.%20To%20do%20this%2C%20you%20need%20to%20first
+here: https://realpython.com/django-social-network-1/#:~:text=Remove%20ads-,Refactor%20Your%20Code%20Using%20a%20Decorator,-Django%20comes%20with 
 
 ### Saved ref:
 https://stackoverflow.com/questions/8133505/django-templateview-and-form
