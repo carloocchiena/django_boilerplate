@@ -5,7 +5,7 @@
 ### Social media clone
 https://realpython.com/django-social-network-1/ 
 
-here: https://realpython.com/django-social-network-1/#:~:text=Remove%20ads-,Refactor%20Your%20Code%20Using%20a%20Decorator,-Django%20comes%20with 
+here: https://realpython.com/django-social-front-end-2/#:~:text=Remove%20ads-,Add%20Bulma%20CSS%20to%20Your%20Base%20Template,-You%20can%20improve  
 
 ### Saved ref:
 https://stackoverflow.com/questions/8133505/django-templateview-and-form
