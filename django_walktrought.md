@@ -17,27 +17,28 @@ A basic checklist for getting started with Django:
 ## About the django workspace and virtual env you are using 
 I recommend you to include in the virtual environment:
 
-1. `pip install python-dotenv` in order to manage the .env file and secrets in your project.
-the process is as follows:
-`from dotenv import load_dotenv, find_dotenv`
+1. `pip install python-dotenv` in order to manage the .env file and secrets in your project.<br>
 
-`load_dotenv(find_dotenv())`
-`SECRET_KEY = os.environ['SECRET_KEY']`
+The usage is as follows:<br>
+`from dotenv import load_dotenv, find_dotenv`<br>
+
+`load_dotenv(find_dotenv())`<br>
+`SECRET_KEY = os.environ['SECRET_KEY']`<br>
 
 2. `pip install pylint-django`
 
 Also, include in the workspace (root):
 
-3. a custom python file `.pylintrc` for each project.
-run in terminal: `pylint --generate-rcfile > .pylintrc`
-then I suggest  you to add:
+3. a custom python file `.pylintrc` for each project.<br>
+run in terminal: `pylint --generate-rcfile > .pylintrc`<br>
+then I suggest you to add:<br>
 
->in [MASTER] section:
-`load-plugins=pylint_django`
-`django-settings-module=myprojectname.settings`
+>in [MASTER] section:<br>
+`load-plugins=pylint_django`<br>
+`django-settings-module=myprojectname.settings`<br>
 
->in [BASIC] section:
-`docstring-min-length=10`
+>in [BASIC] section:<br>
+`docstring-min-length=10`<br>
 
 Please also note that .2 and .3 are mostly to avoid VS CODE stressing you with non-existent warnings and errors.
 
