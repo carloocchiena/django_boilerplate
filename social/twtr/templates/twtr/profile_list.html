@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class='column'>
+
+{% for profile in profiles %}
+
+    <div class="block">
+        <div class="card">
+            <a href="#">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class=is-rounded src=https://banner2.cleanpng.com/20180426/tre/kisspng-memoji-pile-of-poo-emoji-sticker-smiley-user-avatars-5ae24b69cf6571.6662156015247798818495.jpg 
+                                alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">
+                                {{ profile.user.username}}
+                            </p>
+                            <p class="subtitle is-6">
+                                @{{ profile.user.username|lower }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+{% endfor %}
+
+</div>
+   
+{% endblock content %}
