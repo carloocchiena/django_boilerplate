@@ -27,5 +27,6 @@ There are no issues as soon as you keep the same names. If you'd like to update 
 The landing page has an admin section (url_name/admin) where you can check and interact with the saved data. To create a superuser, check the `CLI_commands` file. Currently there's just a superuser called `admin` with the password `admin`.<br>
 
 ### Please readme
-[a link to the django walkthrough](django_walktrought.md) that I wrote as a reference.<br>
-[a link to a list of useful commands](CLI_commands.md)<br>
+Some additional files that I made in order to guide the reader through the process.
+[The django walkthrough](django_walktrought.md)<br>
+[A list of useful commands](CLI_commands.md)<br>
