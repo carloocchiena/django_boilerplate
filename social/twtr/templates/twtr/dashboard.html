@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class='column'>
+    {% for followed in user.profile.follows.all %}
+        {% for twt in followed.user.twts.all %}
+            <div class='box'>
+                {{ twt.body }}
+                <span class='is-small has-text-grey-light'>
+                    {{ twt.created_at }} by {{ twt.user.username }} 
+                </span>
+            </div>
+        {% endfor %}
+    {% endfor %}
+</div>
+
+{% endblock content %}
+
