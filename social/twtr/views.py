@@ -1,9 +1,24 @@
-from django.shortcuts import render
-from .models import Profile
+from django.shortcuts import render, redirect
+
+from .forms import TwtForm
+from .models import Twt, Profile
 
 # Create your views here.
 def dashboard(request):
-    return render(request, 'twtr/dashboard.html')
+    """Manage interactions within the dashboard"""
+    form = TwtForm(request.POST or None)
+    if request.method == 'POST':
+        if form.is_valid():
+            twt = form.save(commit=False)
+            twt.user = request.user
+            twt.save()
+            return redirect('twtr:dashboard')
+    
+    followed_twts = Twt.objects.filter(
+        user__profile__in=request.user.profile.follows.all()
+    ).order_by('-created_at')
+        
+    return render(request, 'twtr/dashboard.html', {'form': form, 'twts': followed_twts})
 
 def profile_list(request):
     profiles = Profile.objects.exclude(user=request.user)

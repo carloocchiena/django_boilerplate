@@ -3,16 +3,45 @@
 {% block content %}
 
 <div class='column'>
-    {% for followed in user.profile.follows.all %}
-        {% for twt in followed.user.twts.all %}
-            <div class='box'>
-                {{ twt.body }}
-                <span class='is-small has-text-grey-light'>
-                    {{ twt.created_at }} by {{ twt.user.username }} 
-                </span>
-            </div>
-        {% endfor %}
+    {% for twt in twts %}
+        <div class='box'>
+            {{ twt.body }}
+            <span class='is-small has-text-grey-light'>
+                {{ twt.created_at }} by {{ twt.user.username }} 
+            </span>
+        </div>
     {% endfor %}
+</div>
+
+<div class="column is-one-third">
+   
+    <div class="block">
+        <a href="{% url 'twtr:profile_list' %}">
+            <button class="button is-info is-outlined is-fullwidth">
+                All Profiles
+            </button>
+        </a>
+    </div>
+    <div class="block"> 
+        <a href="{% url 'twtr:profile' request.user.profile.id %}">
+            <button class="button is-info is-light is outlined is-fullwidth">
+                My Profile
+            </button>
+        </a>
+    </div>
+
+    <div class="block">
+        <div class="block">
+            <h2 class="title is-2">Add a twt</h2>
+        </div>
+        <div class="block">
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="button is-info is-fullwidth is-medium mt-5" type="submit">Twt it!</button>
+            </form>
+        </div>
+    </div>
 </div>
 
 {% endblock content %}
