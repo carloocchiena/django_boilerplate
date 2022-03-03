@@ -2,16 +2,21 @@
 
 A basic checklist for getting started with Django:
 
-1. We assume you have already a virtual environment with django installed.
+1. we assume you have already a virtual environment with django installed.
 2. activate your venv: `conda activate my_env`
 3. create a new django project: `django-admin startproject my_project`
 4. create a new django app: `python manage.py startapp my_app`
 5. register the app in setting.py `INSTALLED_APPS = [`
 6. remove secret key into .env
-7. run migrations
-8. create a superuser
-9. create your first model
-10. make migrations and run migrations
+7. create a `urls.py` file in your app and link it to main project urls.py with `include`
+8. register your app name in such `urls.py` file `app_name = 'my_app'`
+9. update `settings.py` accordingly with the location of your static and templates folder if needed
+10. run migrations
+11. create a superuser
+12. create your first model
+13. make migrations and run migrations
+14. add custom custom errors templates
+15. align or customize admin section
 
 
 ## About the django workspace and virtual env you are using 
@@ -41,5 +46,3 @@ then I suggest you to add:<br>
 `docstring-min-length=10`<br>
 
 Please also note that .2 and .3 are mostly to avoid VS CODE stressing you with non-existent warnings and errors.
-
-

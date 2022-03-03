@@ -37,3 +37,21 @@ def profile(request, pk):
             current_user_profile.follows.remove(profile)
         current_user_profile.save()
     return render(request, 'twtr/profile.html', {'profile': profile})
+
+# custom error handling
+
+# 404 page
+def custom_page_not_found_view(request, exception=None):
+    return render(request, "twtr/errors/404.html", status=404)
+
+# 500 page
+def custom_error_view(request, exception=None):
+    return render(request, "twtr/errors/500.html", status=500)
+
+# 403 page
+def custom_permission_denied_view(request, exception=None):
+    return render(request, "twtr/errors/403.html", status=403)
+
+# 400 page
+def custom_bad_request_view(request, exception=None):
+    return render(request, "twtr/errors/400.html", status=400)

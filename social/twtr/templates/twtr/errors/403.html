@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} 
+
+<title>Ops!</title> 
+
+{% endblock %}
+
+{%block navbar %}
+
+<a class="nav-link" aria-current="page" href="{% url 'one_page:home_page' %}">Home</a>
+<!-- <a class="nav-link" href="#">Features</a> -->
+<a class="nav-link active" href="{% url 'one_page:about_page' %}">About us</a>
+
+{% endblock %}
+
+    {% block content %}
+
+    <h1>403! permission denied</h1>
+ 
+    {% endblock %}

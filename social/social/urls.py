@@ -20,3 +20,14 @@ urlpatterns = [
     path('', include('twtr.urls')),
     path('admin/', admin.site.urls),
 ]
+
+# custom error handling
+handler404 = 'twtr.views.custom_page_not_found_view'
+handler500 = 'twtr.views.custom_error_view'
+handler403 = 'twtr.views.custom_permission_denied_view'
+handler400 = 'twtr.views.custom_bad_request_view'
+
+# custom admin page
+admin.site.site_header = "TWTR Admin Page"
+admin.site.site_title = "Admin Portal"
+admin.site.index_title = "Welcome to TWTR Admin Portal"

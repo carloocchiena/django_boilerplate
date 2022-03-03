@@ -4,6 +4,7 @@
 
 ### Social media clone
 - conform the use of "" and '' trhoughout the code
+- add login page
 - see https://realpython.com/django-user-management/ 
 
 ### Saved ref:
