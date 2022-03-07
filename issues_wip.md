@@ -13,6 +13,13 @@ HERE:
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
 - https://docs.djangoproject.com/en/4.0/topics/auth/default/
 
+ALSO TO FIX ERRORS ON MODELS AND ADMIN:
+https://stackoverflow.com/questions/63771879/visual-studio-code-django-error-when-importing-user-model
+https://stackoverflow.com/questions/42911852/why-cant-i-import-user-model-in-django
+
+seems like there's an issue on documentation
+
+
 
 ### Saved ref:
 https://docs.djangoproject.com/en/4.0/topics/ 
