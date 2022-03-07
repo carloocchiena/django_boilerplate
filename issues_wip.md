@@ -8,15 +8,17 @@
     - create a home page for non-logged in users (on a new branch)
     - create a flow for login\logon\interact with the app
 - add unit tests
-- see https://realpython.com/django-user-management/ 
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
+
 
 ### Saved ref:
 https://stackoverflow.com/questions/8133505/django-templateview-and-form
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing
 https://realpython.com/django-social-network-1/ 
 https://realpython.com/django-social-forms-4/
-https://github.com/redianmarku/Django-Twitter-Clone
 https://realpython.com/django-user-management/
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
 
 portofolio app? https://realpython.com/get-started-with-django-1/ 
 
