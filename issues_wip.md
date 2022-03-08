@@ -1,13 +1,16 @@
 ### Landing Page
 - align about page button to the bottom of the card
 - strengthen the testing in test.py
+- add descriptions and snapshots to readme.md
 
 ### Social media clone
 - conform the use of "" and '' trhoughout the code
 - add login page
     - create a home page for non-logged in users (on a new branch)
     - create a flow for login\logon\interact with the app
+    - add login\register buttons
 - add unit tests
+- add descriptions and snapshots to readme.md
 
 HERE: 
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
@@ -39,3 +42,8 @@ portofolio app? https://realpython.com/get-started-with-django-1/
 3. appare bottone "logout" (solo in tal caso)
 4. in basso c'è il bottone login se si deve invece loggare
 5. se si logga con successo, dashboard
+
+Cosa c'è da fare:
+
+- sistemare css dei vari form 
+- sistemare la CJ tra login register e logout

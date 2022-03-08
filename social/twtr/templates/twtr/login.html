@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="column is-one-third">
+    <div class="block">
+      <h3 class="title is-3">Login</h1>
+    </div>
+    
+    <div class="block">
+      <form method="post" action="{% url 'twtr:login' %}">
+      {% csrf_token %}
+        <div class="form-group">
+            {{ form.username.label_tag }}
+            <input
+                type="text"
+                name="username"
+                class="form-control"
+                maxlength="150"
+                id="id_username"
+                required
+            />
+        </div>
+      
+        <div class="block">
+            {{ form.password.label_tag }}
+            <input
+                type="password"
+                name="password"
+                class="form-control"
+                id="id_password"
+                required
+            />
+        </div>
+      
+      {% if form.non_field_errors %} 
+      
+          {% for error in form.non_field_errors %}
+              <p style="font-size: 13px;">
+                  {{ error|escape }}
+              </p>
+          {% endfor %} 
+      
+      {% endif %}
+      
+          <button type="submit" class="button is-info">Login</button>
+      </form>
+    </div>
+</div>
+
+{% endblock content %}

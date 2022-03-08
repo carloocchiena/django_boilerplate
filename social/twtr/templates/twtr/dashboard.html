@@ -2,9 +2,9 @@
 
 {% block content %}
 
-<div class='column'>
+<div class="column">
     {% for twt in twts %}
-        <div class='box'>
+        <div class="box">
             {{ twt.body }}
             <span class='is-small has-text-grey-light'>
                 {{ twt.created_at }} by {{ twt.user.username }} 
