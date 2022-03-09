@@ -46,11 +46,12 @@
         </a>
     </div>
 
-    {% comment %} work in progress!!!!!!!!!!!!! {% endcomment %}
-    {% if profile.id == user.username.id %}
-        <href class="button is-info is-light is outlined is-fullwidth">
-            <a href="{% url 'twtr:logout' %}">Logout</a>
-    {% endif %}
+    <div class='block'>
+        {% if profile.user.username == user.username %}
+            <href class="button is-info is-light is outlined is-fullwidth">
+                <a href="{% url 'twtr:logout' %}">Logout</a>
+        {% endif %}
+    </div>
 
     <div class='block'>
         <h3 class='title is-4'>
