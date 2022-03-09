@@ -31,9 +31,11 @@ https://realpython.com/django-social-network-1/
 https://realpython.com/django-social-forms-4/
 https://realpython.com/django-user-management/
 
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
+### next steps
 
 portofolio app? https://realpython.com/get-started-with-django-1/ 
+
+fare un repo singolo per l'app social, e valutare se anche per altre applicazioni
 
 
 ### Login x social:
