@@ -43,7 +43,11 @@ portofolio app? https://realpython.com/get-started-with-django-1/
 4. in basso c'è il bottone login se si deve invece loggare
 5. se si logga con successo, dashboard
 
-Cosa c'è da fare:
+Cosa ho fatto:
+- bel form login
+- aggiunto il bottone logout sulla dashboard 
 
-- sistemare css dei vari form 
-- sistemare la CJ tra login register e logout
+Cosa c'è da fare:
+- capire se e come fare apparire bottone logout sul profilo dell'utente loggato
+- sistemare css del form register
+- sistemare i link eventuali tra le varie sezioni

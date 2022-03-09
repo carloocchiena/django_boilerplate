@@ -30,3 +30,9 @@ The landing page has an admin section (url_name/admin) where you can check and i
 Some additional files that I made in order to guide the reader through the process.<br>
 [The django walkthrough](django_walktrought.md)<br>
 [A list of useful commands](CLI_commands.md)<br>
+
+### Contribute
+Every feedback and contribution is welcome.
+Please just:
+1. open an issue and discuss the changes you'd like to make or  the bug\issue you'd like to report<br>
+2. once ready to submit a pull request, provide proof of the testing you've done<br>
