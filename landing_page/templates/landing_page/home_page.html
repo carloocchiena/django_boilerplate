@@ -34,11 +34,21 @@
                 {% csrf_token %}
                 {% for field in form %}
                     <div class="lead form-group">
-                        {{ field.label }}
+                        <label for=""> {{ field.label }} </label>
                     </div>
                     <br>
-                    <div class="form-group mb-2">
-                        {{ field }}
+                    <div class="form-group mx-sm-5 mb-4">
+                        <input
+                            class="form-control"
+                            type="{{ field.type }}"
+                            id="{{ field.auto_id }}"
+                            name="{{ field.html_name }}"
+                            class="form-control"
+                            maxlength="{{ field.max_length }}"
+                            id="{{ field.id_for_label }}"
+                            placeholder="your_mail@email.com"
+                            required
+                        />
                         <!--<br><small id="emailHelp" class="form-text text-muted">We hate spam as much as you do.</small>-->          
                     </div>
                 {% endfor %}
