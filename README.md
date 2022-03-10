@@ -20,13 +20,28 @@ Here's a draft walkthrough of the steps required to modify the django boilerplat
 9. django requires a strict go-live checklist to be followed, here's a list of the things you should do: https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/ 
 
 ### Landing Page
+
+CSS: Bootstrap 5.0.0
+
 This is a template for a static landing page teasing a launch of a new product\service\brand.<br>
 To modify the look and feel of the landing page, modify the html in the `templates` folder.<br>
 While to update images, background and logo, just update them in the `static\landing_page\img` folder.<br>
 There are no issues as soon as you keep the same names. If you'd like to update them, you should also update the templates accordingly, using the static convention (`src="{% static 'landing_page/img/image_name.jpg' %}"`).<br>
 The landing page has an admin section (url_name/admin) where you can check and interact with the saved data. To create a superuser, check the `CLI_commands` file. Currently there's just a superuser called `admin` with the password `admin`.<br>
 
+### Social Media Clone
+
+CSS: Bulma v0.9.3 and Font Awesome 6.0.0
+
+
+
 ### Please readme
 Some additional files that I made in order to guide the reader through the process.<br>
 [The django walkthrough](django_walktrought.md)<br>
 [A list of useful commands](CLI_commands.md)<br>
+
+### Contribute
+Every feedback and contribution is welcome.
+Please just:
+1. open an issue and discuss the changes you'd like to make or  the bug\issue you'd like to report<br>
+2. once ready to submit a pull request, provide proof of the testing you've done<br>

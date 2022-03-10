@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="column">
+    <h2 class="title is-2">Welcome to TWTR</h2>
+    <h3 class="title is-3">It's happening now</h3>
+    <p>Jump abord!</p>
+    <p>
+        New user?
+        <a href="{% url 'twtr:register' %}">Create a free account!</a>
+    </p>
+</div>
+
+<div class="column is-one-third">
+    <div class="block">
+      <h3 class="title is-3">Login</h3>
+    </div>
+    
+    <div class="block">
+        <form method="post" action="{% url 'twtr:login' %}">
+            <div class="field">
+                {% csrf_token %}
+                <label class="label">Username</label>
+                <div class="control has-icons-left">
+                    <input
+                    class="input"  
+                    type="text"
+                    id="id_username"
+                    name="username" 
+                    placeholder="Your username"
+                    maxlength="20" 
+                    required
+                    />
+                    <span class="icon is-small is-left">
+                        <i class="fa fa-envelope"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Password</label>
+                <div class="control has-icons-left">
+                    <input
+                    class="input"  
+                    type="password" 
+                    id="id_password"
+                    name="password"
+                    placeholder="*******" 
+                    required
+                    />
+                    <span class="icon is-small is-left">
+                        <i class="fa fa-lock"></i>
+                    </span>
+                </div>
+            </div>
+      
+            {% if form.non_field_errors %} 
+            
+                {% for error in form.non_field_errors %}
+                    <p style="font-size: 13px;">
+                        {{ error|escape }}
+                    </p><br>
+                {% endfor %} 
+            
+            {% endif %}
+      
+            <button type="submit" class="button is-info is-fullwidth">Login</button>
+      </form>
+    </div>
+</div>
+
+{% endblock content %}

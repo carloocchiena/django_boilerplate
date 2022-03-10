@@ -1,9 +1,13 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse
+from django.contrib.auth import login, logout, authenticate
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.decorators import login_required
 
 from .forms import TwtForm
 from .models import Twt, Profile
 
 # Create your views here.
+@login_required
 def dashboard(request):
     """Manage interactions within the dashboard"""
     form = TwtForm(request.POST or None)
@@ -19,6 +23,22 @@ def dashboard(request):
     ).order_by('-created_at')
         
     return render(request, 'twtr/dashboard.html', {'form': form, 'twts': followed_twts})
+
+def register(request):
+    """Manage user registration"""
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=password)
+            login(request, user)
+            return redirect('twtr:dashboard')
+    
+    else:
+        form = UserCreationForm()
+    return render(request, 'twtr/register.html', {'form': form})
 
 def profile_list(request):
     profiles = Profile.objects.exclude(user=request.user)

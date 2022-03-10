@@ -1,27 +1,38 @@
 ### Landing Page
 - align about page button to the bottom of the card
 - strengthen the testing in test.py
+- add descriptions and snapshots to readme.md
 
 ### Social media clone
 - conform the use of "" and '' trhoughout the code
 - add login page
     - create a home page for non-logged in users (on a new branch)
     - create a flow for login\logon\interact with the app
+    - add login\register buttons
 - add unit tests
+- add descriptions and snapshots to readme.md
+
+HERE: 
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
+- https://docs.djangoproject.com/en/4.0/topics/auth/default/
+
+Fix pylint errors:
+https://stackoverflow.com/questions/63771879/visual-studio-code-django-error-when-importing-user-model
+https://stackoverflow.com/questions/42911852/why-cant-i-import-user-model-in-django
+
+
 
 
 ### Saved ref:
+https://docs.djangoproject.com/en/4.0/topics/ 
 https://stackoverflow.com/questions/8133505/django-templateview-and-form
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing
 https://realpython.com/django-social-network-1/ 
 https://realpython.com/django-social-forms-4/
 https://realpython.com/django-user-management/
 
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
+### next steps
 
 portofolio app? https://realpython.com/get-started-with-django-1/ 
 
-
-
-  
+fare un repo singolo per l'app social, e valutare se anche per altre applicazioni

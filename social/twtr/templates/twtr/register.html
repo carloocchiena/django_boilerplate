@@ -1,0 +1,50 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+
+<div class="column">
+    <h2 class="title is-2">Jump into TWTR in 1,5 minutes!</h2>
+    <h3 class="title is-3">Create a free account</h3>
+</div>
+
+<div class="column is-one-third">
+    <div class="block">
+        <form method="post" action="{% url 'twtr:register' %}">
+            {% csrf_token %} 
+            {% for field in form %}
+                <div class="field">
+                    <div class="form-group">
+                        <label class="label">{{ field.label_tag }} </label>
+                        <div class="control has-icons-left">
+                            <input
+                                class="input"
+                                type="{% if 'password' in field.label_tag %}password{% else %}text{% endif %}"
+                                id="{{ field.auto_id }}"
+                                name="{{ field.html_name }}"
+                                class="form-control"
+                                maxlength="{% if 'username' in field.label_tag %}20{% endif %}"
+                                id="{{ field.id_for_label }}"
+                                required
+                            />
+                            <span class="icon is-small is-left">
+                                <i class="{% if 'password' in field.label_tag %}fa fa-lock{% else %}fa fa-envelope{% endif %}"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                    {% if field.errors %} 
+                        {% for error in field.errors %}
+                            <p style="font-size: 13px;">
+                                {{ error|escape }}
+                            </p><br>
+                        {% endfor %} 
+                    {% endif %} 
+            {% endfor %}
+                    <button type="submit" class="button is-info is-fullwidth">Register</button>
+                
+        </form>
+    </div>
+</div>
+
+{% endblock %}

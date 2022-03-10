@@ -15,10 +15,10 @@
         <div class='buttons has-addons'>
             {% if profile in user.profile.follows.all %}
                 <button class='button is-info is-static'>Follow</button>
-                <button class='button is-danger' name='follow' value='unfollow'>Unfollow</button>
+                <button class='button is-info' name='follow' value='unfollow'>Unfollow</button>
             {% else %}
                 <button class='button is-info' name='follow' value='follow'>Follow</button>
-                <button class='button is-danger is-static'>Unfollow</button>
+                <button class='button is-info is-static'>Unfollow</button>
             {% endif %}
         </div>
     </form>
@@ -44,6 +44,13 @@
                 All Profiles
             </button>
         </a>
+    </div>
+
+    <div class='block'>
+        {% if profile.user.username == user.username %}
+            <href class="button is-info is-light is outlined is-fullwidth">
+                <a href="{% url 'twtr:logout' %}">Logout</a>
+        {% endif %}
     </div>
 
     <div class='block'>
