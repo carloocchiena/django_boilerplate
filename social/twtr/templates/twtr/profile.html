@@ -15,10 +15,10 @@
         <div class='buttons has-addons'>
             {% if profile in user.profile.follows.all %}
                 <button class='button is-info is-static'>Follow</button>
-                <button class='button is-danger' name='follow' value='unfollow'>Unfollow</button>
+                <button class='button is-info' name='follow' value='unfollow'>Unfollow</button>
             {% else %}
                 <button class='button is-info' name='follow' value='follow'>Follow</button>
-                <button class='button is-danger is-static'>Unfollow</button>
+                <button class='button is-info is-static'>Unfollow</button>
             {% endif %}
         </div>
     </form>

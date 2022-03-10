@@ -36,19 +36,3 @@ https://realpython.com/django-user-management/
 portofolio app? https://realpython.com/get-started-with-django-1/ 
 
 fare un repo singolo per l'app social, e valutare se anche per altre applicazioni
-
-
-### Login x social:
-1. utente atterra sulla home page dove vi è form di registrazione stile twitter
-2. se si registra con successo, dashboard
-3. appare bottone "logout" (solo in tal caso)
-4. in basso c'è il bottone login se si deve invece loggare
-5. se si logga con successo, dashboard
-
-Cosa ho fatto:
-- bel form login
-- aggiunto il bottone logout sulla dashboard e dinamicamente sul profilo dei singoli
-
-Cosa c'è da fare:
-- sistemare css del form register
-- sistemare i link eventuali tra le varie sezioni
