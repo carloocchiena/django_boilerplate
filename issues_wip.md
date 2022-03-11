@@ -4,7 +4,7 @@
 (fix forms?)
 
 ### Social media clone
-- conform the use of "" and '' trhoughout the code
+- conform the use of "" and '' troughout the code
 - add unit tests
 - add descriptions and snapshots to readme.md
 
@@ -18,7 +18,7 @@ https://realpython.com/django-social-forms-4/
 https://realpython.com/django-user-management/
 
 ### next steps
-
+siamo qui: 
 portofolio app? https://realpython.com/get-started-with-django-1/ 
 
 fare un repo singolo per l'app social, e valutare se anche per altre applicazioni

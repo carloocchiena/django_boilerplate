@@ -7,16 +7,17 @@ A basic checklist for getting started with Django:
 3. create a new django project: `django-admin startproject my_project`
 4. create a new django app: `python manage.py startapp my_app`
 5. register the app in setting.py `INSTALLED_APPS = [`
-6. remove secret key into .env
-7. create a `urls.py` file in your app and link it to main project urls.py with `include`
-8. register your app name in such `urls.py` file `app_name = 'my_app'`
-9. update `settings.py` accordingly with the location of your static and templates folder if needed
-10. run migrations
-11. create a superuser
-12. create your first model
-13. make migrations and run migrations
-14. add custom custom errors templates
-15. align or customize admin section
+6. register the app in admin.py `admin.site.register(MyModel)`
+7. remove secret key into .env
+8. create a `urls.py` file in your app and link it to main project urls.py with `include`
+9. register your app name in such `urls.py` file `app_name = 'my_app'`
+10. update `settings.py` accordingly with the location of your static and templates folder if needed
+11. run migrations
+12. create a superuser
+13. create your first model
+14. make migrations and run migrations
+15. add custom custom errors templates
+16. align or customize admin section
 
 
 ## About the django workspace and virtual env you are using 
