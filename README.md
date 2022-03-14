@@ -38,8 +38,8 @@ Modify this is a little bit harder than the landing page since the items are hea
 Anyway, you'll find:<br>
 1. the standard navbar, that conveniently redirect to the home page.
 2. the first page, that is the login page for non-registered user.
-3. login and register page.
-4. dashboard page, that is the landing for registered user, where you can see all the tweets for the users you follow (yourself included). From this page you can also add more tweets and visit the `All Profiles` page and `My Profile` page. Here there is also a `Logout` button.
+3. `Login` and `Register` page.
+4. `Dashboard` page, that is the landing for registered user, where you can see all the tweets for the users you follow (yourself included). From this page you can also add more tweets and visit the `All Profiles` page and `My Profile` page. Here there is also a `Logout` button.
 Each tweet has a link to its creator, and daytime details. 
 5. all profiles page where you have all the profiles with default avatars and links to their respective pages.
 6. my profile page where you can see all the tweets you've created, and the users you are following and that are following you. A `Logout` button is also here, interesting, this is dinamically rendered depending on the user.
@@ -47,7 +47,11 @@ Each tweet has a link to its creator, and daytime details.
 Bulma is an interesting framework. The documentation is not as good as Bootstrap, but the classes are somehow simpler than Bootstrap. I don't mind using it. It has been a good experiment.<br>
 Starting from this social media template it's not hard to replicate to other kind of similar or even more complex social media interactions.
 
+### Personal blog and portfolio showcase 
 
+CSS: Bootstrap 5.0.0
+
+lorem ipsum
 
 ### Please readme
 Some additional files that I made in order to guide the reader through the process.<br>
