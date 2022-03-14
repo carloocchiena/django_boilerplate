@@ -23,3 +23,8 @@ urlpatterns = [
     path('', include('projects.urls')),
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# custom admin page
+admin.site.site_header = "My Portfolio Admin"
+admin.site.site_title = "Admin Portal"
+admin.site.index_title = "Welcome to Your Site Admin Portal"

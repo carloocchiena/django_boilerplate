@@ -8,4 +8,4 @@ def project_index(request):
 
 def project_details(request, pk):
     project = models.Project.objects.get(pk=pk)
-    return render(request, 'projects/details.html', {'project': project})
+    return render(request, 'projects/project_details.html', {'project': project})
