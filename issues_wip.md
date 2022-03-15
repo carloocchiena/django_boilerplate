@@ -14,7 +14,7 @@
 - reload with better images
 - add unit tests and descriptions
 
-https://realpython.com/get-started-with-django-1/#:~:text=Remove%20ads-,Share%20Your%20Knowledge%20With%20a%20Blog,-A%20blog%20is
+https://realpython.com/get-started-with-django-1/#:~:text=Remove%20ads-,Blog%20App%3A%20Views,-You%E2%80%99ll%20need%20to
 
 ### Saved ref:
 https://docs.djangoproject.com/en/4.0/topics/ 
