@@ -11,10 +11,8 @@
 
 ### Portfolio
 - update readme and snapshots
-- reload with better images
 - add unit tests and descriptions
-
-https://realpython.com/get-started-with-django-1/#:~:text=Remove%20ads-,Blog%20App%3A%20Views,-You%E2%80%99ll%20need%20to
+- add more blog posts
 
 ### Saved ref:
 https://docs.djangoproject.com/en/4.0/topics/ 
@@ -27,4 +25,4 @@ https://realpython.com/django-user-management/
 ### next steps
 scorrere dentro tutti i wip e sistemare
 
-fare un repo singolo per l'app social, e valutare se anche per altre applicazioni
+fare un repo singolo per l'app social e per le altre app!
