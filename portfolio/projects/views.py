@@ -7,5 +7,13 @@ def project_index(request):
     return render(request, 'projects/index.html', {'projects': projects})
 
 def project_details(request, pk):
+    projects = models.Project.objects.all(), #delete this line if "next" link is not working
     project = models.Project.objects.get(pk=pk)
-    return render(request, 'projects/project_details.html', {'project': project})
+    
+    #delete this line if "next" link is not working
+    context = {
+        'projects': projects,
+        'project': project
+    }
+    
+    return render(request, 'projects/project_details.html', context=context) #modify this line if "next" link is not working
