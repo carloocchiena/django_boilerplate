@@ -15,8 +15,12 @@
             <p>{{ project.technology }}</p>
 
             <!-- work in progress -->
-         
-            {{ project.pk }}
+            <!-- https://stackoverflow.com/questions/54974700/how-to-increment-next-record-in-django-templates -->
+
+            {% for item in projects %}
+                <p>{{ item }}</p>
+            {% endfor %}
+            {{ projects|length }}
             
             <button type="button" class="btn btn-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
