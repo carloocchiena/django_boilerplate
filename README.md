@@ -29,6 +29,12 @@ While to update images, background and logo, just update them in the `static\lan
 There are no issues as soon as you keep the same names. If you'd like to update them, you should also update the templates accordingly, using the static convention (`src="{% static 'landing_page/img/image_name.jpg' %}"`).<br>
 The landing page has an admin section (url_name/admin) where you can check and interact with the saved data. To create a superuser, check the `CLI_commands` file. Currently there's just a superuser called `admin` with the password `admin`.<br>
 
+#### Interesting features
+- Plain vanilla full-stack Django project, perfect to start with.
+- Responsive Bootstrap 5 design.
+- Custom admin section with user management and the ability to get all the users emails.
+- Easy to customize and expand following the boilerplate logic.
+
 ### Social Media Clone
 
 CSS: Bulma v0.9.3 and Font Awesome 6.0.0
@@ -47,11 +53,26 @@ Each tweet has a link to its creator, and daytime details.
 Bulma is an interesting framework. The documentation is not as good as Bootstrap, but the classes are somehow simpler than Bootstrap. I don't mind using it. It has been a good experiment.<br>
 Starting from this social media template it's not hard to replicate to other kind of similar or even more complex social media interactions.
 
+#### Interesting features
+- A good base for a more complex usage of Django.
+- User lifecycle management: signup, signin, signout.
+- Social Media interactions: follow, unfollow, see users list, see contents based on the people the user is following.
+- Interactive dashboard: multiple access point to user profile clicking on redirect links.
+
 ### Personal blog and portfolio showcase 
 
 CSS: Bootstrap 5.0.0
 
 lorem ipsum
+
+#### Interesting features
+- Clean project, great opportunity to be cannibalized and used elsewhere.
+- Easily create project objects via admin panel.
+- Image management via `media` folder.
+- Pre-made templates for project details page.
+- Custom `next` button to navigate thru the project details page.
+- Pretty good example of Django project with multiple app (`blog`, `projects`) with templates and models.
+- Ready-made blog template with categories, index and detail views.
 
 ### Please readme
 Some additional files that I made in order to guide the reader through the process.<br>
