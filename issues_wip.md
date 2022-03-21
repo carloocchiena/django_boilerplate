@@ -26,3 +26,5 @@ https://realpython.com/django-user-management/
 scorrere dentro tutti i wip e sistemare
 
 fare un repo singolo per l'app social e per le altre app!
+modificare psw constraints per social
+aggiornare django cheatsheet su gist

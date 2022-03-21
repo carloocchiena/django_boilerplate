@@ -24,6 +24,10 @@
 
 - run django shell: `python manage.py shell`
 
+- run django db shell: `python manage.py dbshell`
+
+- run django tests: `python manage.py test`
+
 - import modules in the shell: `from first_app.models import MyModel`
 
 - example of queries: `MyModel.objects.all()`, `MyModel.objects.filter(name='my_name')`, `MyModel.objects.filter(age__gte=20).all()`, `MyModel.objects.filter(first_name__startswith="c").all()`, `MyModel.objects.filter(first_name__startswith="c").exclude(age__gte=20).all()`, `MyModel.objects.order_by('age').all()`
