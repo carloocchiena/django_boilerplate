@@ -32,13 +32,17 @@
         
     </form>
     <h3 class="mt-3">Comments:</h3>
-    {% for comment in comments %}
-    <p>
-        On {{comment.created_on.date }}&nbsp;
-        <b>{{ comment.author }}</b> wrote:
-    </p>
-    <p>{{ comment.body }}</p>
-    <hr>
-    {% endfor %}
+    {% if comments|length > 0 %}
+        {% for comment in comments %}
+        <p>
+            On {{comment.created_on.date }}&nbsp;
+            <b>{{ comment.author }}</b> wrote:
+        </p>
+        <p>{{ comment.body }}</p>
+        <hr>
+        {% endfor %}
+    {% else %}
+        <p>No comments yet.</p>
+    {% endif %}
 </div>
 {% endblock %}
