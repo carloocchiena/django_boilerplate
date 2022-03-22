@@ -1,5 +1,4 @@
 ### Landing Page
-- align about page button to the bottom of the card
 - add descriptions and snapshots to readme.md
 - fix forms icons
 
