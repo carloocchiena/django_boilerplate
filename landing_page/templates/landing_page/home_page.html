@@ -15,7 +15,6 @@
 
 {% endblock %}
 
-
     {% block content %}
     
     <main class="px-3" >
@@ -30,26 +29,28 @@
 
         
         <form action="" method="post">
-            <div class="form-group"> 
+            <div class="form-group">  
                 {% csrf_token %}
                 {% for field in form %}
                     <div class="lead form-group">
                         <label for=""> {{ field.label }} </label>
                     </div>
                     <br>
-                    <div class="form-group mx-sm-5 mb-4">
-                        <input
-                            class="form-control"
-                            type="{{ field.type }}"
-                            id="{{ field.auto_id }}"
-                            name="{{ field.html_name }}"
-                            class="form-control"
-                            maxlength="{{ field.max_length }}"
-                            id="{{ field.id_for_label }}"
-                            placeholder="your_mail@email.com"
-                            required
-                        />
-                        <!--<br><small id="emailHelp" class="form-text text-muted">We hate spam as much as you do.</small>-->          
+                    <div class="input-group">
+                        <div class="form-group mx-auto mb-4">
+                            <input
+                                class="form-control"
+                                type="{{ field.type }}"
+                                id="{{ field.auto_id }}"
+                                name="{{ field.html_name }}"
+                                class="form-control"
+                                maxlength="{{ field.max_length }}"
+                                id="{{ field.id_for_label }}"
+                                placeholder="&#9993; your_mail@email.com"
+                                required
+                            />
+                            <!--<br><small id="emailHelp" class="form-text text-muted">We hate spam as much as you do.</small>-->          
+                        </div>
                     </div>
                 {% endfor %}
                 <div class="row checkbox-row">

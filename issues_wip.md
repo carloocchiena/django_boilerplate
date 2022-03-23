@@ -1,6 +1,5 @@
 ### Landing Page
 - add descriptions and snapshots to readme.md
-- fix forms icons
 
 ### Social media clone
 - update readme and snapshots
