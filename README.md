@@ -1,20 +1,19 @@
 # Django boilerplate
 
-is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?<br> 
+is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?c
+<br>
 Can a pre-configured Django environment offer an alternative to Wordpress and other low-code environments?<br>
 <br>
 That's the challenge I've attempted to scratch with this project, offering three ready-made templates for web projects.<br>
-<br>
 
 1. A landing page with a lead collection form.
 2. An example of a social network with user logins and interactions between them.
 3. A traditional website with Blog and Products.
 
-<br>
 The project will be work in progress for a while, and I'd also like it to be created as a real open source project, with contributions and comments from other users and users.<br>
 So feel free to reach out to me if you have any questions or suggestions.<br>
-<br>
-let's see where i could land :)<br>
+
+Let's see where i could land :)<br>
 
 ---
 
