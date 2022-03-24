@@ -37,3 +37,5 @@
 - run tests `python manage.py test --verbosity=2` 
 
 - collect all static files `python manage.py collectstatic` (run this command in the production environments)
+
+- group all the application and output database diagram into PNG file `python manage.py graph_models -a -g -o imagefile_name.png`

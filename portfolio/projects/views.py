@@ -9,3 +9,6 @@ def project_index(request):
 def project_details(request, pk):
     project = models.Project.objects.get(pk=pk)
     return render(request, 'projects/project_details.html', {'project': project}) 
+
+def about_page(request):
+    return render(request, 'projects/about_page.html')

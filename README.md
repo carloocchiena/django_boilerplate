@@ -1,6 +1,6 @@
 # Django boilerplate
 
-is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
+Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
 <br><br>
 Can a pre-configured Django environment offer an alternative to Wordpress and other low-code environments?<br>
 <br>
@@ -56,7 +56,11 @@ The landing page has an admin section (url_name/admin) where you can check and i
 
 ### Social Media Clone
 
-CSS: Bulma v0.9.3 and Font Awesome 6.0.0
+##### CSS: Bulma v0.9.3 and Font Awesome 6.0.0
+
+##### Database Diagram:
+
+<img src="twtr/db_diagram.png">
 
 A true Django classic: the Twitter clone. 
 Modify this is a little bit harder than the landing page since the items are heavily interconnected one each other.<br>
