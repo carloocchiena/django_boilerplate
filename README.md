@@ -1,7 +1,7 @@
 # Django boilerplate
 
-is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?c
-<br>
+is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
+<br><br>
 Can a pre-configured Django environment offer an alternative to Wordpress and other low-code environments?<br>
 <br>
 That's the challenge I've attempted to scratch with this project, offering three ready-made templates for web projects.<br>
@@ -32,7 +32,7 @@ Here's a draft walkthrough of the steps required to modify the django boilerplat
 9. django requires a strict go-live checklist to be followed, here's a list of the things you should do: https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/ 
 
 !important: in none of these projects have additional security features been implemented beyond the standard Django features.<br>
-The project is a continuous work in progress and this version was created for educational and demonstration purposes, not for production use. In any case, use it with caution and awareness of possible risks. 
+The project is a continuous work in progress and this version was created for educational and demonstration purposes, not for production use.<br> In any case, use it with caution and awareness of possible risks. 
 
 ---
 
