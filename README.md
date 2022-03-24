@@ -1,9 +1,22 @@
-# django boilerplate
-WIP
+# Django boilerplate
 
-I'd like to create a django pre-made website that could easily be customized and used for production even to non-django users.
+is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?<br> 
+Can a pre-configured Django environment offer an alternative to Wordpress and other low-code environments?<br>
+<br>
+That's the challenge I've attempted to scratch with this project, offering three ready-made templates for web projects.<br>
+<br>
 
-let's see where i could land :)
+1. A landing page with a lead collection form.
+2. An example of a social network with user logins and interactions between them.
+3. A traditional website with Blog and Products.
+
+<br>
+The project will be work in progress for a while, and I'd also like it to be created as a real open source project, with contributions and comments from other users and users.<br>
+So feel free to reach out to me if you have any questions or suggestions.<br>
+<br>
+let's see where i could land :)<br>
+
+---
 
 ## How to proceed:
 
@@ -18,6 +31,11 @@ Here's a draft walkthrough of the steps required to modify the django boilerplat
 7. follow a consistency pattern in the `urls.py` and `views.py`, as well as other dependecies
 8. usual dependencies in a django project are: `urls.py`, `views.py`, `models.py`, `forms.py`, `settings.py`, `admin.py` 
 9. django requires a strict go-live checklist to be followed, here's a list of the things you should do: https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/ 
+
+!important: in none of these projects have additional security features been implemented beyond the standard Django features.<br>
+The project is a continuous work in progress and this version was created for educational and demonstration purposes, not for production use. In any case, use it with caution and awareness of possible risks. 
+
+---
 
 ### Landing Page
 
@@ -34,6 +52,8 @@ The landing page has an admin section (url_name/admin) where you can check and i
 - Responsive Bootstrap 5 design.
 - Custom admin section with user management and the ability to get all the users emails.
 - Easy to customize and expand following the boilerplate logic.
+
+---
 
 ### Social Media Clone
 
@@ -59,6 +79,8 @@ Starting from this social media template it's not hard to replicate to other kin
 - Social Media interactions: follow, unfollow, see users list, see contents based on the people the user is following.
 - Interactive dashboard: multiple access point to user profile clicking on redirect links.
 
+---
+
 ### Personal blog and portfolio showcase 
 
 CSS: Bootstrap 5.0.0
@@ -74,10 +96,14 @@ lorem ipsum
 - Pretty good example of Django project with multiple app (`blog`, `projects`) with templates and models.
 - Ready-made blog template with categories, index and detail views.
 
+---
+
 ### Please readme
-Some additional files that I made in order to guide the reader through the process.<br>
+I created also some additional walktrought that should help you configuring your Django project:<br>
 [The django walkthrough](django_walktrought.md)<br>
 [A list of useful commands](CLI_commands.md)<br>
+
+---
 
 ### Contribute
 Every feedback and contribution is welcome.
