@@ -17,3 +17,9 @@ scorrere dentro tutti i wip e sistemare
 fare un repo singolo per l'app social e per le altre app!
 modificare psw constraints per social
 scorrere dentro ogni file per vedere che sia pulito
+
+
+Django is like pasta carbonara:
+You can make an inedible mess
+or you can make a decent meal with relatively little effort.
+It depends on how carefully you follow the instructions :)
