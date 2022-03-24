@@ -60,7 +60,7 @@ The landing page has an admin section (url_name/admin) where you can check and i
 
 ##### Database Diagram:
 
-<img src="twtr_db_diagram.png"/>
+<img src="twtr_db_diagram.png" width="400"/>
 
 A true Django classic: the Twitter clone. 
 Modify this is a little bit harder than the landing page since the items are heavily interconnected one each other.<br>
