@@ -17,6 +17,18 @@ Let's see where i could land :)<br>
 
 ---
 
+## Environment setup and quick-start
+1. Create a virtual environment (conda: `conda create -n my_env pip python=3.8`) (python: `python3 -m venv my_env`)
+2. Activate your virtual environment: (conda:`conda activate my_env`) (Linux/MacOS `source my_env/bin/activate`) (Windows:`source my_env/Scripts/activate`)
+3. Install requirements.txt: `pip install -r requirements.txt`
+4. Clone the project: `git clone https://github.com/carloocchiena/django_boilerplate.git`
+5. Navigate to the folder you want (`landing_page`, or `portfolio` or `social`) 
+6. Make migrations with: `python manage.py makemigrations` and apply them with  `python manage.py migrate`
+7. Let's start the engine with `python manage.py runserver`
+8. Have fun! :) 
+
+---
+
 ## How to proceed:
 
 Here's a draft walkthrough of the steps required to modify the django boilerplate to your needs.
@@ -29,10 +41,11 @@ Here's a draft walkthrough of the steps required to modify the django boilerplat
 6. update the forms in `forms.py` in the case you need other kind of userdata
 7. follow a consistency pattern in the `urls.py` and `views.py`, as well as other dependecies
 8. usual dependencies in a django project are: `urls.py`, `views.py`, `models.py`, `forms.py`, `settings.py`, `admin.py` 
-9. django requires a strict go-live checklist to be followed, here's a list of the things you should do: https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/ 
+9. django requires a strict go-live checklist to be followed, [here's a list of the things you should do](https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/). 
 
-!important: in none of these projects have additional security features been implemented beyond the standard Django features.<br>
-The project is a continuous work in progress and this version was created for educational and demonstration purposes, not for production use.<br> In any case, use it with caution and awareness of possible risks. 
+**Important:** in none of these projects have additional security features been implemented beyond the standard Django features.<br>
+The project is a continuous work in progress and this version was created for educational and demonstration purposes, not for production use.<br> In any case, use it with caution and awareness of possible risks.<br>
+For further information about warranty and compliance, please refer to the MIT License, under which this project is released.
 
 ---
 
