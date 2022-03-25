@@ -8,26 +8,22 @@ That's the challenge I've attempted to scratch with this project, offering three
 
 1. A landing page with a lead collection form.
 2. An example of a social network with user logins and interactions between them.
-3. A traditional website with Blog and Products.
+3. A traditional website with Blog, Products and About pages.
 
-The project will be work in progress for a while, and I'd also like it to be created as a real open source project, with contributions and comments from other users and users.<br>
+The project will be work in progress for a while, and I'd also like it to become an open source project, with contributions and comments from other users.<br>
 So feel free to reach out to me if you have any questions or suggestions.<br>
 
-Let's see where i could land :)<br>
-
----
+Let's see where I could land :)<br>
 
 ## Environment setup and quick-start
-1. Create a virtual environment (conda: `conda create -n my_env pip python=3.8`) (python: `python3 -m venv my_env`)
-2. Activate your virtual environment: (conda:`conda activate my_env`) (Linux/MacOS `source my_env/bin/activate`) (Windows:`source my_env/Scripts/activate`)
-3. Install requirements.txt: `pip install -r requirements.txt`
-4. Clone the project: `git clone https://github.com/carloocchiena/django_boilerplate.git`
+1. Clone the project: `git clone https://github.com/carloocchiena/django_boilerplate.git` 
+2. Create a virtual environment (conda `conda create -n my_env pip python=3.8`) (python `python3 -m venv my_env`)
+3. Activate your virtual environment: (conda`conda activate my_env`) (Linux/MacOS `source my_env/bin/activate`) (Windows `source my_env/Scripts/activate`)
+4. Install requirements.txt: `pip install -r requirements.txt` 
 5. Navigate to the folder you want (`landing_page`, or `portfolio` or `social`) 
 6. Make migrations with: `python manage.py makemigrations` and apply them with  `python manage.py migrate`
 7. Let's start the engine with `python manage.py runserver`
 8. Have fun! :) 
-
----
 
 ## How to proceed:
 
