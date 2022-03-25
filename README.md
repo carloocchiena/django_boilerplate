@@ -1,6 +1,6 @@
 # Django boilerplate
 
-[!]https://img.shields.io/tokei/lines/github.com/carloocchiena/django_boilerplate
+![]https://img.shields.io/tokei/lines/github.com/carloocchiena/django_boilerplate
 
 Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
 <br><br>
