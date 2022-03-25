@@ -16,7 +16,7 @@ class Profile(models.Model):
     def __str__(self):
         return self.user.username
 
-@receiver(post_save, sender=User)    
+@receiver(post_save, sender=User)
 def create_profile(sender, instance, created, **kwargs):
     if created:
         user_profile = Profile(user=instance)
@@ -32,7 +32,7 @@ class Twt(models.Model):
     
     def __str__(self):
         return (f'{self.user} '
-                f'{self.created_at:%Y-%m-%d %H:%M}: ' 
+                f'{self.created_at:%Y-%m-%d %H:%M}: '
                 f'{self.body[:15]}...'
                 )
         

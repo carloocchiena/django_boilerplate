@@ -36,7 +36,6 @@ class ContactFormTest(TestCase):
 # testing the views.py
 class ContactViewTest(TestCase):
     """check the email form with some cases"""
-    
     valid_data = "test1@test.com"
     
     def test_email_form(self):

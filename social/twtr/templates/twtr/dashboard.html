@@ -6,7 +6,7 @@
     {% for twt in twts %}
         <div class="box">
             {{ twt.body }}
-            <span class='is-small has-text-grey-light'>
+            <span class="is-small has-text-grey-light">
                 {{ twt.created_at }} 
                 by 
                 <a href="{% url 'twtr:profile' twt.user.profile.id %}">
@@ -51,4 +51,3 @@
 </div>
 
 {% endblock content %}
-
