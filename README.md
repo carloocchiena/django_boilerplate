@@ -18,6 +18,9 @@ So feel free to reach out to me if you have any questions or suggestions.<br>
 Let's see where I could land :)<br>
 
 ## Environment setup and quick-start
+
+**Certified Version:** code has been build and tested on Django 4.0.2 and Python 3.8.8
+
 1. Clone the project: `git clone https://github.com/carloocchiena/django_boilerplate.git` 
 2. Create a virtual environment (conda `conda create -n my_env pip python=3.8`) (python `python3 -m venv my_env`)
 3. Activate your virtual environment: (conda`conda activate my_env`) (Linux/MacOS `source my_env/bin/activate`) (Windows `source my_env/Scripts/activate`)
