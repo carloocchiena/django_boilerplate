@@ -83,6 +83,7 @@ Anyway, you'll find:<br>
 Each tweet has a link to its creator, and daytime details. 
 5. all profiles page where you have all the profiles with default avatars and links to their respective pages.
 6. my profile page where you can see all the tweets you've created, and the users you are following and that are following you. A `Logout` button is also here, interesting, this is dinamically rendered depending on the user.
+7. Admin page allows you to manage all the users, and the tweets.
 
 Bulma is an interesting framework. The documentation is not as good as Bootstrap, but the classes are somehow simpler than Bootstrap. I don't mind using it. It has been a good experiment.<br>
 Starting from this social media template it's not hard to replicate to other kind of similar or even more complex social media interactions.
@@ -99,7 +100,12 @@ Starting from this social media template it's not hard to replicate to other kin
 
 CSS: Bootstrap 5.0.0
 
-lorem ipsum
+A website aiming to provide a canvas for a portfolio (or products) showcase, a blog and an about page.<br>
+At this point won't be harder to you to mix other features from social media (such as login) or landing page (such as lead gen form).<br>
+The admin section here is the core for data entry and content creation. <br>
+You can easily uploads media files, edit texts, create new product cards. <br>
+Blog is pretty straight forward, no images at the moment, but a category tag and comment section. <br>
+About page shows just a little image, contact data and text. But being plain html here should not be hard to extend.<br>
 
 #### Interesting features
 - Clean project, great opportunity to be cannibalized and used elsewhere.
