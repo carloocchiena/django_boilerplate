@@ -11,7 +11,6 @@
     - [Landing Page](#landing-page)
       - [Interesting features](#interesting-features)
     - [Social Media Clone](#social-media-clone)
-        - [CSS: Bulma v0.9.3 and Font Awesome 6.0.0](#css-bulma-v093-and-font-awesome-600)
         - [Database Diagram](#database-diagram)
       - [Interesting features](#interesting-features-1)
     - [Personal blog and portfolio showcase ](#personal-blog-and-portfolio-showcase-)
@@ -19,7 +18,6 @@
     - [Please readme](#please-readme)
     - [Folder structure](#folder-structure)
     - [Contribute](#contribute)
-
 
 Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
 <br><br>
@@ -95,7 +93,7 @@ The landing page has an admin section (url_name/admin) where you can check and i
 
 ### Social Media Clone
 
-##### CSS: Bulma v0.9.3 and Font Awesome 6.0.0
+CSS: Bulma v0.9.3 and Font Awesome 6.0.0
 
 ##### Database Diagram
 
