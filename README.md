@@ -30,6 +30,12 @@ Let's see where I could land :)<br>
 7. Let's start the engine with `python manage.py runserver`
 8. Have fun! :) 
 
+## Project Wiki
+
+In order to provide end-to-end assistance for using this boilerplate, I createad a GitHub Wiki that aims to cover all the major changes and personalization you may need to implement in this project.
+
+You can find it here: [Django Boilerplate Wiki](https://github.com/carloocchiena/django_boilerplate/wiki)
+
 ## How to proceed:
 
 Here's a draft walkthrough of the steps required to modify the django boilerplate to your needs.
@@ -132,7 +138,7 @@ I created also some additional walktrought that should help you configuring your
 
 ### Folder structure:
 
-See the [folder structure](tree.txt)
+Navigate the [folder structure](tree.txt) in tree.txt file
 
 ---
 
