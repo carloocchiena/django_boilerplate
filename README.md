@@ -1,5 +1,24 @@
 # Django boilerplate
 
+## Table of Contents
+
+- [Django boilerplate](#django-boilerplate)
+  - [Environment setup and quick-start](#environment-setup-and-quick-start)
+  - [Project Wiki](#project-wiki)
+  - [How to proceed](#how-to-proceed)
+    - [Landing Page](#landing-page)
+      - [Interesting features](#interesting-features)
+    - [Social Media Clone](#social-media-clone)
+        - [CSS: Bulma v0.9.3 and Font Awesome 6.0.0](#css-bulma-v093-and-font-awesome-600)
+        - [Database Diagram](#database-diagram)
+      - [Interesting features](#interesting-features-1)
+    - [Personal blog and portfolio showcase ](#personal-blog-and-portfolio-showcase-)
+      - [Interesting features](#interesting-features-2)
+    - [Please readme](#please-readme)
+    - [Folder structure](#folder-structure)
+    - [Contribute](#contribute)
+
+
 ![](https://img.shields.io/tokei/lines/github.com/carloocchiena/django_boilerplate)
 
 Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
@@ -36,7 +55,7 @@ In order to provide end-to-end assistance for using this boilerplate, I createad
 
 You can find it here: [Django Boilerplate Wiki](https://github.com/carloocchiena/django_boilerplate/wiki)
 
-## How to proceed:
+## How to proceed
 
 Here's a draft walkthrough of the steps required to modify the django boilerplate to your needs.
 
@@ -78,7 +97,7 @@ The landing page has an admin section (url_name/admin) where you can check and i
 
 ##### CSS: Bulma v0.9.3 and Font Awesome 6.0.0
 
-##### Database Diagram:
+##### Database Diagram
 
 Check the in-folder image for zoom and better quality.
 
@@ -136,7 +155,7 @@ I created also some additional walktrought that should help you configuring your
 
 ---
 
-### Folder structure:
+### Folder structure
 
 Navigate the [folder structure](tree.txt) in tree.txt file
 

@@ -10,7 +10,8 @@
 - add unit tests 
 
 ### next steps
-scorrere dentro tutti i wip e sistemare
+scorrere i vari wip
+estendere wiki
 
 fare un repo singolo per l'app social e per le altre app!
 modificare psw constraints per social
