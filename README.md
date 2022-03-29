@@ -38,14 +38,14 @@ Let's see where I could land :)<br>
 
 **Certified Version:** code has been build and tested on Django 4.0.2 and Python 3.8.8
 
-1. Clone the project: `git clone https://github.com/carloocchiena/django_boilerplate.git` 
-2. Create a virtual environment (conda `conda create -n my_env pip python=3.8`) (python `python3 -m venv my_env`)
-3. Activate your virtual environment: (conda`conda activate my_env`) (Linux/MacOS `source my_env/bin/activate`) (Windows `source my_env/Scripts/activate`)
-4. Install requirements.txt: `pip install -r requirements.txt` 
-5. Navigate to the folder you want (`landing_page`, or `portfolio` or `social`) 
-6. Make migrations with: `python manage.py makemigrations` and apply them with  `python manage.py migrate`
-7. Let's start the engine with `python manage.py runserver`
-8. Have fun! :) 
+1. Clone the project: `git clone https://github.com/carloocchiena/django_boilerplate.git`.
+2. Create a virtual environment (conda `conda create -n my_env pip python=3.8`) (python `python3 -m venv my_env`).
+3. Activate your virtual environment: (conda`conda activate my_env`) (Linux/MacOS `source my_env/bin/activate`) (Windows `source my_env/Scripts/activate`).
+4. Install requirements.txt: `pip install -r requirements.txt`.
+5. Navigate to the folder you want (`landing_page`, or `portfolio` or `social`).
+6. Make migrations with: `python manage.py makemigrations` and apply them with  `python manage.py migrate`.
+7. Let's start the engine with `python manage.py runserver`.
+8. Have fun! :)
 
 ## Project Wiki
 
@@ -57,15 +57,15 @@ You can find it here: [Django Boilerplate Wiki](https://github.com/carloocchiena
 
 Here's a draft walkthrough of the steps required to modify the django boilerplate to your needs.
 
-1. modify the html look and feel in the `templates` folder
-2. modify the images in the `static` folder (if you change the name, update the `url` in the `templates` accordingly)
-3. to change the url of website section update the views in `urls.py` and in `views.py`
-4. modify the `settings.py` file to your needs, don't forgetting to update the `SECRET_KEY`
-5. update the models in `models.py` in the case you need other kind of data saved to the database
-6. update the forms in `forms.py` in the case you need other kind of userdata
-7. follow a consistency pattern in the `urls.py` and `views.py`, as well as other dependecies
-8. usual dependencies in a django project are: `urls.py`, `views.py`, `models.py`, `forms.py`, `settings.py`, `admin.py` 
-9. django requires a strict go-live checklist to be followed, [here's a list of the things you should do](https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/). 
+1. Modify the html look and feel in the `templates` folder.
+2. Modify the images in the `static` folder (if you change the name, update the `url` in the `templates` accordingly).
+3. To change the url of website section update the views in `urls.py` and in `views.py`.
+4. Modify the `settings.py` file to your needs, don't forgetting to update the `SECRET_KEY`.
+5. Update the models in `models.py` in the case you need other kind of data saved to the database.
+6. Update the forms in `forms.py` in the case you need other kind of userdata.
+7. Follow a consistency pattern in the `urls.py` and `views.py`, as well as other dependecies.
+8. Usual dependencies in a django project are: `urls.py`, `views.py`, `models.py`, `forms.py`, `settings.py`, `admin.py` .
+9. Django requires a strict go-live checklist to be followed, [here's a list of the things you should do](https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/). 
 
 **Important:** in none of these projects have additional security features been implemented beyond the standard Django features.<br>
 The project is a continuous work in progress and this version was created for educational and demonstration purposes, not for production use.<br> In any case, use it with caution and awareness of possible risks.<br>
@@ -104,13 +104,13 @@ Check the in-folder image for zoom and better quality.
 A true Django classic: the Twitter clone. 
 Modify this is a little bit harder than the landing page since the items are heavily interconnected one each other.<br>
 Anyway, you'll find:<br>
-1. the standard navbar, that conveniently redirect to the home page.
-2. the first page, that is the login page for non-registered user.
+1. The standard navbar, that conveniently redirect to the home page.
+2. The first page, that is the login page for non-registered user.
 3. `Login` and `Register` page.
 4. `Dashboard` page, that is the landing for registered user, where you can see all the tweets for the users you follow (yourself included). From this page you can also add more tweets and visit the `All Profiles` page and `My Profile` page. Here there is also a `Logout` button.
 Each tweet has a link to its creator, and daytime details. 
-5. all profiles page where you have all the profiles with default avatars and links to their respective pages.
-6. my profile page where you can see all the tweets you've created, and the users you are following and that are following you. A `Logout` button is also here, interesting, this is dinamically rendered depending on the user.
+5. All profiles page where you have all the profiles with default avatars and links to their respective pages.
+6. My profile page where you can see all the tweets you've created, and the users you are following and that are following you. A `Logout` button is also here, interesting, this is dinamically rendered depending on the user.
 7. Admin page allows you to manage all the users, and the tweets.
 
 Bulma is an interesting framework. The documentation is not as good as Bootstrap, but the classes are somehow simpler than Bootstrap. I don't mind using it. It has been a good experiment.<br>
@@ -148,19 +148,19 @@ About page shows just a little image, contact data and text. But being plain htm
 
 ### Please readme
 I created also some additional walktrought that should help you configuring your Django project:<br>
-[The django walkthrough](django_walktrought.md)<br>
-[A list of useful commands](CLI_commands.md)<br>
+[The django walkthrough](django_walktrought.md).<br>
+[A list of useful commands](CLI_commands.md).<br>
 
 ---
 
 ### Folder structure
 
-Navigate the [folder structure](tree.txt) in tree.txt file
+Navigate the [folder structure](tree.txt) in tree.txt file.
 
 ---
 
 ### Contribute
 Every feedback and contribution is welcome.
 Please just:
-1. open an issue and discuss the changes you'd like to make or  the bug\issue you'd like to report<br>
-2. once ready to submit a pull request, provide proof of the testing you've done<br>
+1. Open an issue and discuss the changes you'd like to make or  the bug\issue you'd like to report.<br>
+2. Once ready to submit a pull request, provide proof of the testing you've done.<br>
