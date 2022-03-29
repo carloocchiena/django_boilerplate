@@ -46,8 +46,4 @@ class ContactViewTest(TestCase):
         response.context['form'].save()
         self.assertTrue(ContactDatabase.objects.filter(email=self.valid_data).exists())
 
-    def duplicate_email_form(self):
-        """email already exists"""
-        response = self.client.post(reverse('one_page:home_page'), {'email': self.valid_data})
-        self.assertContains(response, "Warning! Email already exists")
         

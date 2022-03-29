@@ -4,6 +4,7 @@
 ### Social media clone
 - update snapshots
 - add unit tests (see https://github.com/thomascothran/twitter-clone/tree/master/custom_accounts )
+https://docs.djangoproject.com/en/4.0/topics/testing/tools/ 
 
 ### Portfolio
 - update snapshots
