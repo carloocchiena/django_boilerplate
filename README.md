@@ -130,6 +130,8 @@ Starting from this social media template it's not hard to replicate to other kin
 
 ### Personal blog and portfolio showcase 
 
+![](/GIFs/portfolio.gif)
+
 CSS: Bootstrap 5.0.0
 
 A website aiming to provide a canvas for a portfolio (or products) showcase, a blog and an about page.<br>
