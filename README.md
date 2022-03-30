@@ -95,6 +95,8 @@ The landing page has an admin section (url_name/admin) where you can check and i
 
 ### Social Media Clone
 
+![](/GIFs/social.gif)
+
 CSS: Bulma v0.9.3 and Font Awesome 6.0.0
 
 ##### Database Diagram
