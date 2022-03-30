@@ -75,7 +75,7 @@ For further information about warranty and compliance, please refer to the MIT L
 
 ### Landing Page
 
-[](/GIFs/landing.gif)
+![](/GIFs/landing.gif)
 
 CSS: Bootstrap 5.0.0
 
