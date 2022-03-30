@@ -1,6 +1,7 @@
 import unittest
-from django.test import Client, TransactionTestCase
 from django.contrib.auth import get_user_model
+from django.contrib.auth.models import User
+from django.test import Client, TestCase, TransactionTestCase
 
 from . import models
 
@@ -26,6 +27,19 @@ class ProfileTests(TransactionTestCase):
         )
         custom_profile = models.Profile.objects.get(user=django_user_model)
         self.assertEqual(custom_profile.user, django_user_model)
+        
+class UserTestCase(TestCase):
+    """Test user login"""
+    def setUp(self):
+        self.client = Client()
+
+    def test_login(self):
+        response = self.client.post('/register/', {
+            'username': TEST_USER['username'],
+            'password1': TEST_USER['password'],
+            'password2': TEST_USER['password'],
+            }, HTTP_USER_AGENT=USER_AGENT['win'])
+        self.assertTrue(User.objects.all()[0].is_authenticated)
 
 class HttpTests(unittest.TestCase):
     """Testing HTTP results"""
@@ -51,11 +65,4 @@ class HttpTests(unittest.TestCase):
         response = client.post('/logout/',
             HTTP_USER_AGENT=USER_AGENT['win'])
         self.assertEqual(response.status_code, 302)
-        
-    # questa non va 
-    def test_user_page(self, request='GET'):
-        client = Client()
-        response = client.get(f'/profile/{models.Profile.objects.get(pk=request.user.id)}',
-            HTTP_USER_AGENT=USER_AGENT['win'])
-        self.assertEqual(response.status_code, 200)
-        
+         

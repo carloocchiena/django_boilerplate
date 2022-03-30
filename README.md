@@ -75,6 +75,8 @@ For further information about warranty and compliance, please refer to the MIT L
 
 ### Landing Page
 
+[](/GIFs/landing.gif)
+
 CSS: Bootstrap 5.0.0
 
 This is a template for a static landing page teasing a launch of a new product\service\brand.<br>
