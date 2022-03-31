@@ -34,6 +34,21 @@ So feel free to reach out to me if you have any questions or suggestions.<br>
 
 Let's see where I could land :)<br>
 
+## What does "Django boilerplate" mean?
+Before venturing into this project I did a lot of research. Both in regards to what needs I wanted to cover and what already existed.
+
+I found several Django boilerplate projects, but the vast majority of these were "simply" sketchy sites to be populated. I understand that this meets a proper definition of boilerplate, but in my opinion what makes the difference in setting up a Django project is documentation.
+
+Therefore I extensively documented my project, explaining in detail the step-by-step operations to modify each project.
+
+I've also created a wiki that I hope to populate further by answering the main FAQs found when working with Django.
+
+I also tried to offer variety in the project: from a simple landing to a complex social media, from lead collection features to authorization systems. Using different CSS frameworks and different ways for each project to use Django resources and framework. Although obviously utmost care was taken to have integrity within the individual project.
+
+This is the basis of boilerplate.
+
+I hope this concept will fully answer the one who is looking for a Django boilerplate to start from scratch with a project. 
+
 ## Environment setup and quick-start
 
 **Certified Version:** code has been build and tested on Django 4.0.2 and Python 3.8.8
@@ -66,6 +81,9 @@ Here's a draft walkthrough of the steps required to modify the django boilerplat
 7. Follow a consistency pattern in the `urls.py` and `views.py`, as well as other dependecies.
 8. Usual dependencies in a django project are: `urls.py`, `views.py`, `models.py`, `forms.py`, `settings.py`, `admin.py` .
 9. Django requires a strict go-live checklist to be followed, [here's a list of the things you should do](https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/). 
+
+### About tests:
+I made a partial coverage of code with unit tests files that you'll find in `tests.py` files in each project (at the very moment I need to extend them for the `portfolio project`). I expect to work further on them, hopefully reaching 100% coverage and adding integration tests, but this will also depend on the traction this project will have. 
 
 **Important:** in none of these projects have additional security features been implemented beyond the standard Django features.<br>
 The project is a continuous work in progress and this version was created for educational and demonstration purposes, not for production use.<br> In any case, use it with caution and awareness of possible risks.<br>
