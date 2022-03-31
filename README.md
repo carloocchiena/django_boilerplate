@@ -48,9 +48,9 @@ I've also created a wiki that I hope to populate further by answering the main F
 
 I also tried to offer variety in the project: from a simple landing to a complex social media, from lead collection features to authorization systems. Using different CSS frameworks and different ways for each project to use Django resources and framework. Although obviously utmost care was taken to have integrity within the individual project.
 
-This is the basis of boilerplate.
+This is the basis of my boilerplate.
 
-I hope this concept will fully answer the one who is looking for a Django boilerplate to start from scratch with a project. 
+I hope this concept will fully answer the one who is looking for a Django boilerplate to start from scratch with a web project. 
 
 ## Environment setup and quick-start
 
@@ -86,7 +86,7 @@ Here's a draft walkthrough of the steps required to modify the django boilerplat
 9. Keep it in mind: **all projects are on `DEBUG = True` mode**.
 10. Django requires a strict go-live checklist to be followed, [here's a list of the things you should do](https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/). 
 
-### About tests:
+### About tests
 I made a partial coverage of code with unit tests files that you'll find in `tests.py` files in each project (at the very moment I need to extend them for the `portfolio project`). I expect to work further on them, hopefully reaching 100% coverage and adding integration tests, but this will also depend on the traction this project will have. 
 
 **Important:** in none of these projects have additional security features been implemented beyond the standard Django features.<br>
