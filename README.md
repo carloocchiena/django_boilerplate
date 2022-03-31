@@ -5,19 +5,22 @@
 ## Table of Contents
 
 - [Django boilerplate](#django-boilerplate)
-  - [Environment setup and quick-start](#environment-setup-and-quick-start)
-  - [Project Wiki](#project-wiki)
-  - [How to proceed](#how-to-proceed)
-    - [Landing Page](#landing-page)
+  * [Table of Contents](#table-of-contents)
+  * [What does "Django boilerplate" mean?](#what-does--django-boilerplate--mean-)
+  * [Environment setup and quick-start](#environment-setup-and-quick-start)
+  * [Project Wiki](#project-wiki)
+  * [How to proceed](#how-to-proceed)
+    + [About tests:](#about-tests-)
+    + [Landing Page](#landing-page)
       - [Interesting features](#interesting-features)
-    - [Social Media Clone](#social-media-clone)
-        - [Database Diagram](#database-diagram)
+    + [Social Media Clone](#social-media-clone)
+        * [Database Diagram](#database-diagram)
       - [Interesting features](#interesting-features-1)
-    - [Personal blog and portfolio showcase ](#personal-blog-and-portfolio-showcase-)
+    + [Personal blog and portfolio showcase](#personal-blog-and-portfolio-showcase)
       - [Interesting features](#interesting-features-2)
-    - [Please readme](#please-readme)
-    - [Folder structure](#folder-structure)
-    - [Contribute](#contribute)
+    + [Please readme](#please-readme)
+    + [Folder structure](#folder-structure)
+    + [Contribute](#contribute)
 
 Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
 <br><br>
