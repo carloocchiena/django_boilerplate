@@ -54,7 +54,7 @@ I hope this concept will fully answer the one who is looking for a Django boiler
 
 ## Environment setup and quick-start
 
-**Certified Version:** code has been build and tested on Django 4.0.2 and Python 3.8.8
+**About my prod env:** code has been build and tested on Django 4.0.2 and Python 3.8.8 running on Win11 machine.
 
 1. Clone the project: `git clone https://github.com/carloocchiena/django_boilerplate.git`.
 2. Create a virtual environment (conda `conda create -n my_env pip python=3.8`) (python `python3 -m venv my_env`).
@@ -83,7 +83,8 @@ Here's a draft walkthrough of the steps required to modify the django boilerplat
 6. Update the forms in `forms.py` in the case you need other kind of userdata.
 7. Follow a consistency pattern in the `urls.py` and `views.py`, as well as other dependecies.
 8. Usual dependencies in a django project are: `urls.py`, `views.py`, `models.py`, `forms.py`, `settings.py`, `admin.py` .
-9. Django requires a strict go-live checklist to be followed, [here's a list of the things you should do](https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/). 
+9. Keep it in mind: **all projects are on `DEBUG = True` mode**.
+10. Django requires a strict go-live checklist to be followed, [here's a list of the things you should do](https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/). 
 
 ### About tests:
 I made a partial coverage of code with unit tests files that you'll find in `tests.py` files in each project (at the very moment I need to extend them for the `portfolio project`). I expect to work further on them, hopefully reaching 100% coverage and adding integration tests, but this will also depend on the traction this project will have. 
