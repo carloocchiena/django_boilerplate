@@ -15,9 +15,7 @@ class UserAdmin(admin.ModelAdmin):
     fields = ['username']
     inlines = [ProfileInline]
 
-# remove the default admin and  group since we'll not use it
-# and add our UserAdmin class
-admin.site.unregister(Group)
+# add our UserAdmin class
 admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
 admin.site.register(Twt)
