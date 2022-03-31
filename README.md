@@ -40,7 +40,7 @@ Let's see where I could land :)<br>
 ## What does "Django boilerplate" mean?
 Before venturing into this project I did a lot of research. Both in regards to what needs I wanted to cover and what already existed.
 
-I found several Django boilerplate projects, but the vast majority of these were "simply" sketchy sites to be populated. I understand that this meets a proper definition of boilerplate, but in my opinion what makes the difference in setting up a Django project is documentation.
+I found several Django boilerplate projects, but the vast majority of these were aimed at an already Django-savvy audience. While I am trying to address a more entry-level audience, that may know something about web development and Python, but not necessarily interested in building a Django website from scratch.
 
 Therefore I extensively documented my project, explaining in detail the step-by-step operations to modify each project.
 
