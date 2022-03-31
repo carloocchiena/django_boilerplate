@@ -11,6 +11,7 @@
 ### next steps
 scorrere i vari wip
 estendere wiki
+why a boilerplate
 
 fare un repo singolo per l'app social e per le altre app!
 
