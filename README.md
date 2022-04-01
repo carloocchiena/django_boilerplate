@@ -35,7 +35,7 @@ That's the challenge I've attempted to scratch with this project, offering three
 The project will be work in progress for a while, and I'd also like it to become an open source project, with contributions and comments from other users.<br>
 So feel free to reach out to me if you have any questions or suggestions.<br>
 
-Let's see where I could land :)<br>
+Let's see where I could land.<br>
 
 ## What does "Django boilerplate" mean?
 Before venturing into this project I did a lot of research. Both in regards to what needs I wanted to cover and what already existed.
