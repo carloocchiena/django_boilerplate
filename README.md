@@ -69,6 +69,8 @@ I hope this concept will fully answer the one who is looking for a Django boiler
 
 In order to provide end-to-end assistance for using this boilerplate, I createad a GitHub Wiki that aims to cover all the major changes and personalization you may need to implement in this project.
 
+I also explained some of the choices I made: Cookiecutter, containers, deployment.
+
 You can find it here: [Django Boilerplate Wiki](https://github.com/carloocchiena/django_boilerplate/wiki)
 
 ## How to proceed
