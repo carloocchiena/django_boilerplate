@@ -1,6 +1,6 @@
 # Django boilerplate
 
-![](https://img.shields.io/tokei/lines/github.com/carloocchiena/django_boilerplate)
+![](https://img.shields.io/tokei/lines/github.com/carloocchiena/django_boilerplate) ![](https://img.shields.io/github/stars/carloocchiena/django_boilerplate?label=GitHub%20stars)
 
 ## Table of Contents
 
@@ -186,7 +186,6 @@ I created also some additional walktrought that should help you configuring your
 Navigate the [folder structure](tree.txt) in tree.txt file.
 
 ---
-
 ### Contribute
 Every feedback and contribution is welcome.
 Please just:
