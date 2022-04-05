@@ -95,9 +95,8 @@ I made a partial coverage of code with unit tests files that you'll find in `tes
 The project is a continuous work in progress and this version was created for educational and demonstration purposes, not for production use.<br> In any case, use it with caution and awareness of possible risks.<br>
 For further information about warranty and compliance, please refer to the MIT License, under which this project is released.
 
----
 
-### Landing Page
+## Landing Page
 
 ![](/GIFs/landing.gif)
 
@@ -115,15 +114,14 @@ The landing page has an admin section (url_name/admin) where you can check and i
 - Custom admin section with user management and the ability to get all the users emails.
 - Easy to customize and expand following the boilerplate logic.
 
----
 
-### Social Media Clone
+## Social Media Clone
 
 ![](/GIFs/social.gif)
 
 CSS: Bulma v0.9.3 and Font Awesome 6.0.0
 
-##### Database Diagram
+### Database Diagram
 
 Check the in-folder image for zoom and better quality.
 
@@ -150,9 +148,8 @@ Starting from this social media template it's not hard to replicate to other kin
 - Social Media interactions: follow, unfollow, see users list, see contents based on the people the user is following.
 - Interactive dashboard: multiple access point to user profile clicking on redirect links.
 
----
 
-### Personal blog and portfolio showcase 
+## Personal blog and portfolio showcase 
 
 ![](/GIFs/portfolio.gif)
 
@@ -174,28 +171,22 @@ About page shows just a little image, contact data and text. But being plain htm
 - Pretty good example of Django project with multiple app (`blog`, `projects`) with templates and models.
 - Ready-made blog template with categories, index and detail views.
 
----
-
-### Please readme
+## Please readme
 I created also some additional walktrought that should help you configuring your Django project:<br>
 [The django walkthrough](django_walktrought.md).<br>
 [A list of useful commands](CLI_commands.md).<br>
 
----
-
-### Folder structure
+## Folder structure
 
 Navigate the [folder structure](tree.txt) in tree.txt file.
 
----
-### Contribute
+## Contribute
 Every feedback and contribution is welcome.
 Please just:
 1. Open an issue and discuss the changes you'd like to make or  the bug\issue you'd like to report.<br>
 2. Once ready to submit a pull request, provide proof of the testing you've done.<br>
 
----
-### Closing words
+## Closing words
 _Django is like pasta carbonara:<br>
 You can make an inedible mess<br>
 or you can make a decent meal with relatively little effort.<br>
