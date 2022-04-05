@@ -10,17 +10,18 @@
   * [Environment setup and quick-start](#environment-setup-and-quick-start)
   * [Project Wiki](#project-wiki)
   * [How to proceed](#how-to-proceed)
-    + [About tests:](#about-tests-)
-    + [Landing Page](#landing-page)
+    + [About tests](#about-tests)
+  * [Landing Page](#landing-page)
       - [Interesting features](#interesting-features)
-    + [Social Media Clone](#social-media-clone)
-        * [Database Diagram](#database-diagram)
+  * [Social Media Clone](#social-media-clone)
+    + [Database Diagram](#database-diagram)
       - [Interesting features](#interesting-features-1)
-    + [Personal blog and portfolio showcase](#personal-blog-and-portfolio-showcase)
+  * [Personal blog and portfolio showcase](#personal-blog-and-portfolio-showcase)
       - [Interesting features](#interesting-features-2)
-    + [Please readme](#please-readme)
-    + [Folder structure](#folder-structure)
-    + [Contribute](#contribute)
+  * [Please readme](#please-readme)
+  * [Folder structure](#folder-structure)
+  * [Contribute](#contribute)
+  * [Closing words](#closing-words)
 
 Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
 <br><br>
@@ -100,7 +101,7 @@ For further information about warranty and compliance, please refer to the MIT L
 
 ![](/GIFs/landing.gif)
 
-CSS: Bootstrap 5.0.0
+**CSS:** Bootstrap 5.0.0
 
 This is a template for a static landing page teasing a launch of a new product\service\brand.<br>
 To modify the look and feel of the landing page, modify the html in the `templates` folder.<br>
@@ -119,7 +120,7 @@ The landing page has an admin section (url_name/admin) where you can check and i
 
 ![](/GIFs/social.gif)
 
-CSS: Bulma v0.9.3 and Font Awesome 6.0.0
+**CSS:** Bulma v0.9.3 and Font Awesome 6.0.0
 
 ### Database Diagram
 
@@ -153,7 +154,7 @@ Starting from this social media template it's not hard to replicate to other kin
 
 ![](/GIFs/portfolio.gif)
 
-CSS: Bootstrap 5.0.0
+**CSS:** Bootstrap 5.0.0
 
 A website aiming to provide a canvas for a portfolio (or products) showcase, a blog and an about page.<br>
 At this point won't be harder to you to mix other features from social media (such as login) or landing page (such as lead gen form).<br>
