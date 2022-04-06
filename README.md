@@ -21,7 +21,7 @@
   * [Please readme](#please-readme)
   * [Folder structure](#folder-structure)
   * [Contribute](#contribute)
-  * [Closing words](#closing-words)c
+  * [Closing words](#closing-words)
 
 Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
 <br><br>
