@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from .forms import TwtForm
 from .models import Twt, Profile
 
-# Create your views here.
+# Main dashboard
 @login_required
 def dashboard(request):
     """Manage interactions within the dashboard"""
@@ -24,6 +24,7 @@ def dashboard(request):
         
     return render(request, 'twtr/dashboard.html', {'form': form, 'twts': followed_twts})
 
+# Registration function for new users
 def register(request):
     """Manage user registration"""
     if request.method == 'POST':
@@ -40,10 +41,14 @@ def register(request):
         form = UserCreationForm()
     return render(request, 'twtr/register.html', {'form': form})
 
+# List all the profiles
+@login_required
 def profile_list(request):
     profiles = Profile.objects.exclude(user=request.user)
     return render(request, 'twtr/profile_list.html', {'profiles': profiles})
 
+# Display the single user detail page
+@login_required
 def profile(request, pk):
     """Manage user profile, follows and unfollows"""
     profile = Profile.objects.get(pk=pk)

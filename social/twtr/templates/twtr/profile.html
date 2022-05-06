@@ -48,8 +48,9 @@
 
     <div class="block">
         {% if profile.user.username == user.username %}
-            <a href class="button is-info is-light is outlined is-fullwidth">
-                <a href="{% url 'twtr:logout' %}">Logout</a>
+            <a href="{% url 'twtr:logout' %}" class="button is-info is-light is outlined is-fullwidth">
+                Logout
+            </a>
         {% endif %}
     </div>
 
