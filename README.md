@@ -23,7 +23,7 @@
   * [Folder structure](#folder-structure)
   * [Contribute](#contribute)
   * [Closing words](#closing-words)
-  
+
 Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
 <br><br>
 Can a pre-configured Django environment offer an alternative to Wordpress and other low-code environments?<br>
@@ -40,10 +40,10 @@ So feel free to reach out to me if you have any questions or suggestions.<br>
 Let's see where I could land.<br>
 
 #### Update as to May 2022
-Let's be honest, I am working voraciously on Django frameworks and I have to say I am learning or discovering new things and implementable optizatios by the day.<br>
+Let's be honest, I am working voraciously over Django framework and I have to say I am learning or discovering new things by the day.<br>
 I won't say that this boilerplate could have been rewritten already, but I have a quite long list of new features to be integrated.<br>
 I am adding a lot of them in a new project that is exploring and deepening further the creation of a social media in Django (this time with pictures, personal profiles, and a lot of new features).<br>
-Feel free to take a look at it [Django Social Feed](https://github.com/carloocchiena/django_social_feed).
+Feel free to take a look at it here >>> [Django Social Feed](https://github.com/carloocchiena/django_social_feed).
 
 
 ## What does "Django boilerplate" mean?
