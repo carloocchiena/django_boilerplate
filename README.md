@@ -6,6 +6,7 @@
 
 - [Django boilerplate](#django-boilerplate)
   * [Table of Contents](#table-of-contents)
+      - [Update as to May 2022](#update-as-to-may-2022)
   * [What does "Django boilerplate" mean?](#what-does--django-boilerplate--mean-)
   * [Environment setup and quick-start](#environment-setup-and-quick-start)
   * [Project Wiki](#project-wiki)
@@ -22,7 +23,7 @@
   * [Folder structure](#folder-structure)
   * [Contribute](#contribute)
   * [Closing words](#closing-words)
-
+  
 Is it possible to use Django to create websites and web applications that are consistent, functional, and easy to use and modify?
 <br><br>
 Can a pre-configured Django environment offer an alternative to Wordpress and other low-code environments?<br>
