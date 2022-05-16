@@ -3,8 +3,6 @@ from django.db import models
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
-# Create your models here.
-# user profile model
 class Profile(models.Model):
     """Model to handle user and who they follow"""
     objects = models.Manager() # this is needed to avoid VS Code error
@@ -24,11 +22,13 @@ def create_profile(sender, instance, created, **kwargs):
         user_profile.follows.add(instance.profile)
         user_profile.save()
         
-# twt model
 class Twt(models.Model):
     user = models.ForeignKey(User, related_name='twts', on_delete=models.DO_NOTHING)
     body = models.CharField(max_length=140)
     created_at = models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        ordering = ['-created_at']
     
     def __str__(self):
         return (f'{self.user} '

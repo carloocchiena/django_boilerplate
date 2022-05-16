@@ -20,7 +20,7 @@ def dashboard(request):
     
     followed_twts = Twt.objects.filter(
         user__profile__in=request.user.profile.follows.all()
-    ).order_by('-created_at')
+    )
         
     return render(request, 'twtr/dashboard.html', {'form': form, 'twts': followed_twts})
 
