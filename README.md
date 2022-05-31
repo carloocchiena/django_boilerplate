@@ -69,10 +69,11 @@ I hope this concept will fully answer the one who is looking for a Django boiler
 2. Create a virtual environment (conda `conda create -n my_env pip python=3.8`) (python `python3 -m venv my_env`).
 3. Activate your virtual environment: (conda`conda activate my_env`) (Linux/MacOS `source my_env/bin/activate`) (Windows `source my_env/Scripts/activate`).
 4. Install requirements.txt: `pip install -r requirements.txt`.
-5. Navigate to the folder you want (`landing_page`, or `portfolio` or `social`).
-6. Make migrations with: `python manage.py makemigrations` and apply them with  `python manage.py migrate`.
-7. Let's start the engine with `python manage.py runserver`.
-8. Have fun! :)
+5. Create a `.env` file with your SECRET KEY
+6. Navigate to the folder you want (`landing_page`, or `portfolio` or `social`).
+7. Make migrations with: `python manage.py makemigrations` and apply them with  `python manage.py migrate`.
+8. Let's start the engine with `python manage.py runserver`.
+9. Have fun! :)
 
 ## Project Wiki
 
@@ -194,6 +195,8 @@ Every feedback and contribution is welcome.
 Please just:
 1. Open an issue and discuss the changes you'd like to make or  the bug\issue you'd like to report.<br>
 2. Once ready to submit a pull request, provide proof of the testing you've done.<br>
+
+A special thanks to (Nephilia)[https://www.nephila.digital/it/] for the inspiration to work with Django and the feedback they were so kindly to gave me on this project. 
 
 ## Closing words
 _Django is like pasta carbonara:<br>
