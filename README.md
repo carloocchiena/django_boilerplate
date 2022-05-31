@@ -196,7 +196,7 @@ Please just:
 1. Open an issue and discuss the changes you'd like to make or  the bug\issue you'd like to report.<br>
 2. Once ready to submit a pull request, provide proof of the testing you've done.<br>
 
-A special thanks to (Nephilia)[https://www.nephila.digital/it/] for the inspiration to work with Django and the feedback they were so kindly to gave me on this project. 
+A special thanks to [Nephilia](https://www.nephila.digital/it/) for the inspiration to work with Django and the feedback they were so kindly to gave me on this project. 
 
 ## Closing words
 _Django is like pasta carbonara:<br>
