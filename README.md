@@ -185,6 +185,7 @@ About page shows just a little image, contact data and text. But being plain htm
 I created also some additional walktrought that should help you configuring your Django project:<br>
 [The django walkthrough](django_walktrought.md).<br>
 [A list of useful commands](CLI_commands.md).<br>
+Also, please pay attention to [Django Antipatterns](https://www.django-antipatterns.com/antipattern.html).<br>
 
 ## Folder structure
 
